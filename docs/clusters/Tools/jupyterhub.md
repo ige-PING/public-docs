@@ -63,8 +63,13 @@ Finallay you are connected to the a job and have acces to different kernels (pre
 
 ![](./images/jupyterhub3.PNG)
 
-
 You can acces to slurm commands to check the status of your code, from a notebook
+
+```{Note}
+When the job is submit, it will read the $HOME/.profile file. You can add all the environment variable you need before jupyter notebook starts
+If you need to change the Notebook Directory (default $HOME) , you can add the following in this file
+export NOTEBOOK_DIR=/path/to/new/location
+```
 
 ![](./images/slurm_magics.PNG)
 
