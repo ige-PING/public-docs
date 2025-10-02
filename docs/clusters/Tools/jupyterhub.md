@@ -59,7 +59,7 @@ You can choose, which interface you need, jupyterlab/jupyter or just a terminal
 
 ![](./images/jupyterhub2bisterm.PNG)
 
-Finallay you are connected to the a job and have acces to different kernels (pre-built: Matlab +your own : R/...)
+Finally you are connected to the a job and have acces to different kernels (pre-built: Matlab +your own : R/...)
 
 ![](./images/jupyterhub3.PNG)
 
@@ -67,7 +67,7 @@ You can acces to slurm commands to check the status of your code, from a noteboo
 
 ```{Note}
 
-When the job is submit, it will read the HOME/.profile file.
+When the job is submit, it will read the $HOME/.profile file.
 You can add all the environment variable you need before jupyter notebook starts.
 If you need to change the Notebook Directory (default $HOME) , you can add the following in this file:
 
