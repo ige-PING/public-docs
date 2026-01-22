@@ -121,7 +121,7 @@ Remote Sensing  @IGE
 
 
 :::{grid-item-card} 
-:link: ../docs/tutorials
+:link: ../docs/follow-tutorials
 :link-type: doc
 :class-header: bg-light
 
