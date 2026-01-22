@@ -121,6 +121,24 @@ Remote Sensing  @IGE
 
 
 :::{grid-item-card} 
+:link: ../docs/tutorials
+:link-type: doc
+:class-header: bg-light
+
+Software Development
+^^^
+```{image} ../images/tutos.png
+:alt: stutorials
+:class: bg-primary mb-1
+:width: 200px
+:align: center
+```
+
+Follow along tutorials
+
+:::
+
+:::{grid-item-card} 
 :link: ../docs/software-development
 :link-type: doc
 :class-header: bg-light
@@ -134,7 +152,7 @@ Software Development
 :align: center
 ```
 
-What are th best tools to use
+What are the best tools to use
 
 :::
 
