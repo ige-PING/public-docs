@@ -21,7 +21,7 @@ chapters:
 - file: docs/modeling-systems
 - file: docs/remote-sensing
 - file: docs/software-development
-- file: docs/tutorials
+- file: docs/follow-tutorials
   sections:
   - file: docs/tutorials/ghpages
 - file: docs/events
