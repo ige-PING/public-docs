@@ -125,7 +125,7 @@ Remote Sensing  @IGE
 :link-type: doc
 :class-header: bg-light
 
-Software Development
+Tutorials
 ^^^
 ```{image} ../images/tutos.png
 :alt: stutorials
@@ -134,7 +134,7 @@ Software Development
 :align: center
 ```
 
-Follow along tutorials
+Follow along !
 
 :::
 
