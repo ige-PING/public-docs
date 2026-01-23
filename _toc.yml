@@ -21,9 +21,6 @@ chapters:
 - file: docs/modeling-systems
 - file: docs/remote-sensing
 - file: docs/software-development
-- file: docs/follow-tutorials
-  sections:
-  - file: docs/tutorials/ghpages
 - file: docs/events
 - file: docs/awesome-ige-calcul
 - file: docs/about-ige-calcul
