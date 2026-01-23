@@ -128,13 +128,13 @@ Remote Sensing  @IGE
 Tutorials
 ^^^
 ```{image} ../images/tutos.png
-:alt: stutorials
+:alt: follow-tutorials
 :class: bg-primary mb-1
 :width: 200px
 :align: center
 ```
 
-Follow along !
+Follow the tutorials
 
 :::
 
