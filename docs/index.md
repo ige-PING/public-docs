@@ -121,24 +121,6 @@ Remote Sensing  @IGE
 
 
 :::{grid-item-card} 
-:link: ../docs/follow-tutorials
-:link-type: doc
-:class-header: bg-light
-
-Tutorials
-^^^
-```{image} ../images/tutos.png
-:alt: follow-tutorials
-:class: bg-primary mb-1
-:width: 200px
-:align: center
-```
-
-Follow the tutorials
-
-:::
-
-:::{grid-item-card} 
 :link: ../docs/software-development
 :link-type: doc
 :class-header: bg-light
