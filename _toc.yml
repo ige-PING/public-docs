@@ -16,7 +16,9 @@ chapters:
   - file: docs/clusters/Gricad/dahu
   - file: docs/clusters/Gricad/bigfoot
   - file: docs/clusters/TGCC/TGCC-infos
- 
+- file: docs/tutorials
+  sections:
+  - file: docs/tutorials/ghpages 
 - file: docs/data-warehouses
 - file: docs/modeling-systems
 - file: docs/remote-sensing

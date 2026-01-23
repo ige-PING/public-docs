@@ -139,6 +139,24 @@ What are the best tools to use
 :::
 
 :::{grid-item-card} 
+:link: ../docs/follow-tutorials
+:link-type: doc
+:class-header: bg-light
+
+Tutorials
+^^^
+```{image} ../images/tutos.png
+:alt: follow-tutorials
+:class: bg-primary mb-1
+:width: 200px
+:align: center
+```
+
+Follow along tutorials
+
+:::
+
+:::{grid-item-card} 
 :link: ../docs/good-practices
 :link-type: doc
 :class-header: bg-light
