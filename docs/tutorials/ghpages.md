@@ -12,7 +12,7 @@ To select a good one (easier to implement), you want to have a template that is 
 
 Fork the selected template and modify the name of the repository with yours 
 
-#![](./images/fork.png)
+
 
 Make sure these sources will produce a webpage by following these instructions : https://docs.github.com/en/pages/quickstart, skipping steps 1 to 5, we only modify the branch from which the github page is built and click save (steps 7 to 9)
 
@@ -24,9 +24,9 @@ And we have now to customize for our own content.
 
 Let’s do it by opening a codespace for the repo in order to modify multiple files online easily
 
-#![](./images/codespace1.png)
 
-#![](./images/codespace2.png)
+
+
 
 We need to modify _config.yml and maybe add some pictures to images subdir to make the content our own, then we push and see !
 
