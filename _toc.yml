@@ -15,7 +15,7 @@ chapters:
   - file: docs/clusters/Tools/jupyterhub
   - file: docs/clusters/Gricad/dahu
   - file: docs/clusters/Gricad/bigfoot
-  - file: docs/clusters/TGCC/TGCC
+  - file: docs/clusters/TGCC/TGCC-infos
  
 - file: docs/data-warehouses
 - file: docs/modeling-systems
