@@ -1,6 +1,6 @@
 # IGE Scientific Computation Ressources
 
-This repo contains the sources of [IGE Computing jupyter book](https://ige-calcul.github.io/public-docs/docs/index.html)
+This repo contains the sources of [IGE Computing jupyter book](https://ige-PING.github.io/public-docs/docs/index.html)
 
 ## Organization
 
