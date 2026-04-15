@@ -16,7 +16,7 @@ chapters:
   - file: docs/clusters/Gricad/dahu
   - file: docs/clusters/Gricad/bigfoot
   - file: docs/clusters/TGCC/TGCC-infos
-- file: docs/tutorials
+- file: docs/follow-tutorials
   sections:
   - file: docs/tutorials/ghpages 
 - file: docs/data-warehouses
