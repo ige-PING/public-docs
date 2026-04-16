@@ -1,6 +1,6 @@
 (ghpages)=
 
-# Create and host a wbepage with Github Pages
+# Create and host a webpage with Github Pages
 
 It is possible to manage and host websites with github pages and workflows, at IGE some examples are : [https://sasip-climate.github.io/](https://sasip-climate.github.io/), [https://lesommer.github.io/](https://lesommer.github.io/), [https://romaincaneill.fr/](https://romaincaneill.fr/), ...
 
