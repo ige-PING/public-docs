@@ -19,6 +19,7 @@ chapters:
 - file: docs/follow-tutorials
   sections:
   - file: docs/tutorials/ghpages 
+  - file: docs/tutorials/documentation 
 - file: docs/data-warehouses
 - file: docs/modeling-systems
 - file: docs/remote-sensing
