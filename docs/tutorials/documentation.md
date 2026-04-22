@@ -33,5 +33,11 @@ The source for the landing page is located in the docs/index.md file
 
 ## How to fix a typo
 
+![](../../images/tuto-typo1.png)
+![](../../images/tuto-typo2.png)
+![](../../images/tuto-typo3.png)
+![](../../images/tuto-typo4.png)
+![](../../images/tuto-typo5.png)
+![](../../images/tuto-typo6.png)
 
 ## How to add a new page
