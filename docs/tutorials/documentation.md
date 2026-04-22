@@ -41,3 +41,17 @@ The source for the landing page is located in the docs/index.md file
 ![](../../images/tuto-typo6.png)
 
 ## How to add a new page
+
+![](../../images/tuto-page1.png)
+![](../../images/tuto-page2.png)
+![](../../images/tuto-page3.png)
+![](../../images/tuto-page4.png)
+![](../../images/tuto-page5.png)
+![](../../images/tuto-page6.png)
+![](../../images/tuto-page7.png)
+![](../../images/tuto-page8.png)
+![](../../images/tuto-page9.png)
+![](../../images/tuto-page10.png)
+![](../../images/tuto-page11.png)
+![](../../images/tuto-new-page12.png)
+![](../../images/tuto-new-page13.png)
