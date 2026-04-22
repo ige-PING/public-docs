@@ -21,6 +21,8 @@ You can access it directly from the jupyter book by clicking on the github logo 
 (issue)=
 ## How to raise an issue
 
+
+
 (typo)=
 ## How to fix a typo
 
