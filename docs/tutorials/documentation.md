@@ -11,11 +11,15 @@ If you are not yet a contributor to this github repo please ask Aurélie Albert 
 
 ## Architecture of the documentation
 
-The sources of this documentation live at github.com/IGE-ping/public-docs
+The sources of this documentation live at [github.com/IGE-ping/public-docs](https://github.com/ige-PING/public-docs/blob/main/docs/index.md)
 
 ![](../../images/source-book.png)
 
 You can access it directly from the jupyter book by clicking on the github logo in the right upper corner, then Repository
+
+The sidebar categories are organized in the [_toc.yml file](https://github.com/ige-PING/public-docs/blob/main/_toc.yml)
+
+![](../../images/source-sidebar-toc.png)
 
 The source for the landing page is located in the docs/index.md file
 
