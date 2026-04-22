@@ -17,6 +17,10 @@ The sources of this documentation live at github.com/IGE-ping/public-docs
 
 You can access it directly from the jupyter book by clicking on the github logo in the right upper corner, then Repository
 
+The source for the landing page is located in the docs/index.md file
+
+![](../../images/source-landing-page.png)
+
 ## How to raise an issue
 
 ![](../../images/tuto-issue1.png)
