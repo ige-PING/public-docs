@@ -2,7 +2,7 @@ This document should help you get started with containers on supercomputers. It 
 
 # What is a container?
 
-In computing, a container can be several different things. Here we can think of a container as "a small operating system that can be run on TGCC, a bit like a virtual machine".
+In computing, a container can be several different things. Here we can think of a container as "a small operating system that can be run on a supercomputer (or elsewhere), a bit like a virtual machine".
 
 # Why use containters?
 
@@ -59,7 +59,7 @@ python3 -m pip install numpy
 EOF
 ```
 
-The `FROM` line specifies an operating system image that will be the foundation for our own custom image. Here we use an image based on Red Hat Enterprise Linux (RHEL) v8. This happens to be the operating system running on TGCC, but you do not have to choose the same one. You can use Ubuntu, Fedora, etc. It should work the same.
+The `FROM` line specifies an operating system image that will be the foundation for our own custom image. Here we use an image based on Red Hat Enterprise Linux (RHEL) v8. Note that there are plenty other distributions you can use as a base system (Ubuntu, Fedora, etc.).
 
 The `RUN` block specifies instructions that will be run inside the base image when our custom image is created. Here we install Python and Pip (`dnf` is RHEL's package manager), then we create a Python environment and install `numpy` within this environment.
 
@@ -70,7 +70,7 @@ podman build --platform=linux/amd64 --format=docker -t $tag_of_the_image /dir/co
 ```
 
 > [!NOTE]
-> We build the image for the `linux/amd64` architecture because that is what TGCC uses (if you are on MacOS, it is probably not the same as your architecture).
+> We build the image for the `linux/amd64` architecture because it is the architecture of the supercomputer I use (if you are on MacOS, it is probably not the same as your architecture). Here you will have to choose the correct architecture for your target system.
 
 You can now list the exising images on your system:
 
