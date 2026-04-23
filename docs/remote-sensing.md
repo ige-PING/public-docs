@@ -9,15 +9,16 @@ Finally, the remote sensing team develops algorithms for image segmentation and 
 
 ##  People involved
 
-|   Name       |  Position         |  Team            |  Building          | What                                                 |
-| -------------|:-----------------:|:----------------:|:------------------:|:----------------------------------------------------:|
-| F. Brun      | Researcher        | C2H              |    Glacio          | Pléiades/SPOT DEM processing, photogrammetry |
-| A. Dehecq    | Researcher        | Cryodyn          |    Glacio          | Elevation change, photogrammetry, historical spy imagery, dev. of xdem and geoutils |
-| R. Millan    | Researcher        | Cryodyn          |    MCP             | Ice velocity processing, basal melting rates, crevasses mapping |
-| A. Rabatel   | Researcher        | Cryodyn          |    Glacio          | Ice velocity processing of moutain glaciers, Snow line altitude delineation |
-| K. Shahateet | Post-doc          | Cryodyn          |    MCP             | Ice shelf damage using deep learning, SAR |
-| L. Charrier  | Post-doc          | Cryodyn          |    Glacio          | Inversion of time series of surface flow velocities |
-| L. Béraud    | PhD               | Cryodyn          |    Glacio          | Post-processing of elevation change time-series |
-| L. Gimenes   | Engineer          | Cryodyn          |    OSUG-B          | Ice shelf basal melting rates |
-| N. Lioret    | Engineer          | Cryodyn          |    Glacio          | Ice velocity processing with Pléiades imagery, and time serie inversion |
+|   Name         |  Position         |  Team            |  Building          | What                                                 |
+| -------------- |:-----------------:|:----------------:|:------------------:|:----------------------------------------------------:|
+| F. Brun        | Researcher        | C2H              |    Glacio          | Pléiades/SPOT DEM processing, photogrammetry (ASP) |
+| A. Dehecq      | Researcher        | Cryodyn          |    Glacio          | Elevation change, photogrammetry (ASP), historical spy imagery, dev. of xdem and geoutils |
+| R. Millan      | Researcher        | Cryodyn          |    MCP             | Ice velocity processing, basal melting rates, crevasses mapping |
+| A. Rabatel     | Researcher        | Cryodyn          |    Glacio          | Ice velocity processing of moutain glaciers, Snow line altitude delineation, glacier inventories |
+| A. Racoviteanu | Researcher      | C2H              |    Glacio          | Classification and mapping, photogrammetry (LPS), glacier inventories |
+| K. Shahateet   | Post-doc          | Cryodyn          |    MCP             | Ice shelf damage using deep learning, SAR |
+| L. Charrier    | Post-doc          | Cryodyn          |    Glacio          | Inversion of time series of surface flow velocities |
+| L. Béraud      | PhD               | Cryodyn          |    Glacio          | Post-processing of elevation change time-series |
+| L. Gimenes     | Engineer          | Cryodyn          |    OSUG-B          | Ice shelf basal melting rates |
+| N. Lioret      | Engineer          | Cryodyn          |    Glacio          | Ice velocity processing with Pléiades imagery, and time serie inversion |
  
