@@ -1,6 +1,6 @@
 # About IGE PING
 
-IGE ping platform is composed of different people of the lab including : engineers, researchers, students, phd students, postdoc, etc.
+IGE PING platform is composed of different people of the lab including : engineers, researchers, students, phd students, postdoc, etc.
 The content of these pages gives an overview of the work and activities of lab around Computing/Data/Models and Workflows.
 
 Everything concerning the platform's organization and communication can be found on
