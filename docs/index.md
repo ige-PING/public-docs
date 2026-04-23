@@ -200,7 +200,7 @@ Learn more about the state of the art
 :link-type: doc
 :class-header: bg-light
 
-Awesome IGE CALCUL
+Awesome IGE PING
 ^^^
 ```{image} ../images/awesome.jpg
 :alt: awesome
@@ -209,7 +209,7 @@ Awesome IGE CALCUL
 :align: center
 ```
 
-Most popular repositories on Github
+Repositories we 🫀 on Github
 
 :::
 
@@ -218,7 +218,7 @@ Most popular repositories on Github
 :link-type: doc
 :class-header: bg-light
 
-About IGE CALCUL
+About IGE PING
 ^^^
 ```{image} ../images/about-us.jpg
 :alt: about-us
