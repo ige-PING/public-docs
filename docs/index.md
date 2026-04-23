@@ -190,7 +190,7 @@ Events
 :align: center
 ```
 
-Know more about the state of the art
+Learn more about the state of the art
 
 :::
 
