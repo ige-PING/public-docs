@@ -27,6 +27,8 @@ The source for the landing page is located in the docs/index.md file
 
 ## How to raise an issue
 
+Click on the issues tab
+
 ![](../../images/tuto-issue1.png)
 ![](../../images/tuto-issue2.png)
 ![](../../images/tuto-issue3.png)
