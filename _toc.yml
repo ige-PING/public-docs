@@ -7,6 +7,7 @@ chapters:
 - file: docs/computing-clusters
   sections:
   - file: docs/clusters/general-tips
+  - file: docs/clusters/containers
   - file: docs/clusters/Tools/vscode
   - file: docs/clusters/Tools/micromamba
   - file: docs/clusters/Tools/windows_users
@@ -18,8 +19,8 @@ chapters:
   - file: docs/clusters/TGCC/TGCC-infos
 - file: docs/follow-tutorials
   sections:
-  - file: docs/tutorials/ghpages 
-  - file: docs/tutorials/documentation 
+  - file: docs/tutorials/ghpages
+  - file: docs/tutorials/documentation
 - file: docs/data-warehouses
 - file: docs/modeling-systems
   sections:
