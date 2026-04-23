@@ -1,8 +1,5 @@
 # WRF-Chem-Polar
 
-## WRF-Chem-Polar and Model Infrastructure
-
-
 **WRF-Chem-Polar** is a regional chemistry–climate modeling system based on WRF-Chem, developed collaboratively at the Institut des Géosciences de l’Environnement IGE and LATMOS (France) based on WRF-Chem (developed at NCAR and NOAA, USA). 
 **WRF-Chem-Polar** is based on WRF-Chem with substantial developments to adapt the model to research applications in polar environments, with a main focus on the Arctic. These developments address key processes that are either absent from, or insufficiently represented in, the standard WRF-Chem distribution, particularly those controlling aerosol-cloud interactions, boundary layer chemistry, and surface-atmosphere coupling over snow, sea ice, and the polar ocean. 
 
