@@ -79,6 +79,26 @@ Finite Element Software for Ice Sheet, Glaciers and Ice Flow Modelling
 :::
 
 :::{grid-item-card} 
+:link: ../docs/geos-chem
+:link-type: doc
+:class-header: bg-light
+
+GEOS-Chem
+^^^
+```{image} ../images/geos-chem.png
+:alt: geos-chem
+:class: bg-primary mb-1
+:width: 200px
+:align: center
+```
+
+Global atmospheric chemistry model
+
+:::
+
+
+
+:::{grid-item-card} 
 :link: ../docs/nemo
 :link-type: doc
 :class-header: bg-light
