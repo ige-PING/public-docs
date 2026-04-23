@@ -6,4 +6,4 @@
 - [JupyterHub deployment tutorial](https://gricad-gitlab.univ-grenoble-alpes.fr/ping/nova-z2jh-openreprolab): how to deploy a JupyterHub through a Kubernetes setup on NOVA UGA infrastructure
 
 ## Wiki documentations
-- [The wiki-glace](https://sourcesup.renater.fr/wiki/wiki-glace/): used to share data and information in C2H team is open to any people who want to contribute (students repositories, presentations, tools, meeting reports, ...)
+- [wiki-glace](https://sourcesup.renater.fr/wiki/wiki-glace/): data and information of C2H team, open for contributions (students repositories, presentations, tools, meeting reports, ...)
