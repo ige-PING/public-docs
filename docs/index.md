@@ -196,11 +196,11 @@ Learn more about the state of the art
 
 
 :::{grid-item-card} 
-:link: ../docs/awesome-ige-ping
+:link: ../docs/ige-projects
 :link-type: doc
 :class-header: bg-light
 
-Awesome IGE PING
+IGE Projects
 ^^^
 ```{image} ../images/awesome.jpg
 :alt: awesome
