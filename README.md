@@ -14,7 +14,7 @@ To make it easier, we chose to simplify this workflow, especially for the beginn
 
 You are now able to modify directly one or multiple files in the main branch, the jupyter book will then be automatically modified, look for the green flag in the Actions tab.
 
-To avoid conflicts arising from two people modifying the same file at the same time, we suggest that you warn the IGE-calcul team that you are about to contribute to the book by sending a mail (it will also show to the other member that some people are working on the documentation !)
+To avoid conflicts arising from two people modifying the same file at the same time, we suggest that you warn the IGE-PING team that you are about to contribute to the book by sending a mail (it will also show to the other member that some people are working on the documentation !)
 
 A descriptive comment on what you did and why is still strongly recommended when commiting a change.
 
