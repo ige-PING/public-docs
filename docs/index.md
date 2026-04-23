@@ -96,7 +96,7 @@ Modeling Systems
 :align: center
 ```
 
-Know better about the models developped @IGE
+Learn more about the models developed @IGE
 
 :::
 
