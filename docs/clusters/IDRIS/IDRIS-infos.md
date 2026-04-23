@@ -62,22 +62,23 @@ To know about available quota, run the commands:
 Quotas are organized according to the workspaces, which differ by:
 (i) the volume of available space,
 (ii) the security of the data (backups), and
-(iii) the type of access to the data:
+(iii) the type of access to the data.
+They can be accessed using environment variables:
 
-  - $HOME : home directory, with small volume (3Gb) but very frequent back-up,
+  - **$HOME** : home directory, with **small size** (3Gb) but very **frequent back-up**,
             mainly used to store small precious data, like code, configurations, etc.
             Quota is per user.
-  - $WORK : workspace available for bigger data, but with NO BACK-UP,
+  - **$WORK** : workspace available for **bigger data**, but with **no back-up**,
             usually used to make moderate size simulation or run testcases.
             Quota is per project and typical status is full,
             so be careful to avoid blocking other users.
-  - $SCRATCH : workspace available big data (no quota), but only TEMPORARY
+  - **$SCRATCH** : workspace available **big data** (no quota), but only **temporary**
                (erased automatically after one month),
                with very fast access from the processor (faster than HOME and WORK),
                usually used to put data used and produced by big simulations.
                Good practice is to automatically save final results to STORE
                by a separate postprocessing to avoid automatic deletion.
-  - $STORE : safe long-term storage of big data, not accessible from computing jobs.
+  - **$STORE** : safe long-term storage of big data, not accessible from computing jobs.
              Be careful of the limited quota on the number of files (inodes),
              thus avoid storing many small files and make archives if necessary(tar).
              Quota is per project, so check what you do (in size and inodes).
