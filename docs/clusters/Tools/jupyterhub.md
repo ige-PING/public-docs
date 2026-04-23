@@ -1,6 +1,6 @@
 (ige-jupyterhub)=
 
-# Jupyterhub on Ige Clusters
+# Jupyterhub on IGE Clusters
 
 Make sure you are able to connect to the clusters ige-calcul1/2//3/4 without any passwords
 Please refers to the doc [Connect to the clusters](../Ige/ige-calcul1.md)
@@ -8,7 +8,7 @@ Please refers to the doc [Connect to the clusters](../Ige/ige-calcul1.md)
 
 ## Connect to the server
 
-Il you are using the command 
+If you are using the command 
 
 ```
 ssh  calcul1
@@ -35,10 +35,10 @@ First, you will be asked for your agalan login/password
 
 ![](./images/jupyterhub1.PNG)
 
-Then you get the different options to choose the needed ressources
+Then you get the different options to choose the needed resources
 1. Memory
 2. CPUs/ GPUs
-3. Time , etc...
+3. Time, etc...
 
 ```{caution}
 If your job is taking time to get connected, you are problaly waiting in the queue
@@ -47,7 +47,7 @@ You can connect using ssh , and check the ressources with **squeue -u $USER**
 
 ![](./images/jupyterhub2.PNG)
 
-Here is an example to choose the number of gpus if there are any
+Here is an example to choose the number of GPUs if there are any
 
 ![](./images/jupyterhub2bisgpu.PNG)
 
@@ -59,11 +59,11 @@ You can choose, which interface you need, jupyterlab/jupyter or just a terminal
 
 ![](./images/jupyterhub2bisterm.PNG)
 
-Finally you are connected to the a job and have acces to different kernels (pre-built: Matlab +your own : R/...)
+Finally you are connected to the job and have access to different kernels (pre-built: Matlab +your own : R/...)
 
 ![](./images/jupyterhub3.PNG)
 
-You can acces to slurm commands to check the status of your code, from a notebook
+You can access to SLURM commands to check the status of your code, from a notebook
 
 ```{Note}
 
