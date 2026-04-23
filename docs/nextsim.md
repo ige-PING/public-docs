@@ -1,4 +1,4 @@
-# neXtSIM : the neXt generation Sea Ice Model
+# neXtSIM
 
 The neXt generation Sea Ice Model (neXtSIM) is a Lagrangian dynamical-thermodynamical sea-ice model that faithfully represents large-scale sea ice thickness, concentration and drift patterns,
 statistical properties of pack ice deformation and drift, diffusion and dispersion; and additionally exhibits a strong capacity for short-term sea ice forecasting at Pan-Arctic scales.
