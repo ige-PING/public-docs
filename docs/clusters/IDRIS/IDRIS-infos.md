@@ -52,7 +52,7 @@ ssh jean-zay
 Then you can share SSH keys (with the proxy and jean-zay)
 to avoid giving your password at each connection.
 
-## Jean-Zay workspace and storage
+## Workspaces and storage
 
 Before producing data, always check that your project
 has got enough resources to store them.
