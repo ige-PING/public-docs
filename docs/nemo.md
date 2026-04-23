@@ -1,4 +1,6 @@
-# NEMO a Community Ocean Model
+# NEMO
+
+## A Community Ocean Model
 
 The "Nucleus for European Modelling of the Ocean" (NEMO) is a state-of-the-art modelling framework. It is used for research activities and forecasting services in ocean and climate sciences. NEMO is developed by a European consortium with the objective of ensuring long term reliability and sustainability.
 
