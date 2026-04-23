@@ -31,7 +31,7 @@ MAR regional climate model
 
 WRF
 ^^^
-```{image} ../images/wrf-chem.jpg
+```{image} ../images/wrf-logo.png
 :alt: wrf-chem
 :class: bg-primary mb-1
 :width: 200px
