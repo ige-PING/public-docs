@@ -209,7 +209,7 @@ IGE Projects
 :align: center
 ```
 
-Repositories we 🫀 on Github
+Other IGE projects and ressources
 
 :::
 
