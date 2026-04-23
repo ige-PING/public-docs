@@ -2,7 +2,7 @@
 
 ## IGE Clusters
 
-If you need fast access to a small computing ressources or if you want to run matlab or other programs without any time limits, you can have access to IGE cluster, which was set up for that.
+If you need fast access to small computing resources, or if you want to run matlab or other programs without any time limits, you can access the IGE cluster, which was set up for that.
 
 The {ref}`following documentation<igecal1>` will guide you through the different steps you need to know to start computing immediately.
 
@@ -12,9 +12,9 @@ The {ref}`following documentation<igecal1>` will guide you through the different
 
 
 #### 1.a Gricad CPU
-  Gricad infrastructure provides a lot of ressources for all the labs of Grenoble University. It includes CPU/GPU ressources.
+  Gricad infrastructure provides a lot of resources for all Grenoble University labs. It includes CPU/GPU resources.
 
-  For now the most used cluster is dahu which is used for CPU ressources.
+  For now the most used cluster is dahu which is used for CPU resources.
 
   Gricad is open for any student/researcher/engineer. If you have a contract with Grenoble University, you have already an internal account defined by Agalan Credentials. If you are outside the campus and even outside France, you will get an external account as long as you have an institutional email.
 
@@ -22,12 +22,12 @@ The {ref}`following documentation<igecal1>` will guide you through the different
 
   @IGE, we are a providing a {ref}`straighforward documentation<dahu>`, to start computing rapidly.
 
-  You can also have a look to [a more detailled documentation from Gricad](https://gricad-doc.univ-grenoble-alpes.fr/hpc/).
+  You can also have a look at [a more detailled documentation from Gricad](https://gricad-doc.univ-grenoble-alpes.fr/hpc/).
 
 #### 1.b Gricad GPU
-  As for **GPU ressources and IA computing**, there is [another cluster named bigfoot](https://gricad-doc.univ-grenoble-alpes.fr/hpc/joblaunch/job_gpu/).
+  As for **GPU resources and AI computing**, there is [another cluster named bigfoot](https://gricad-doc.univ-grenoble-alpes.fr/hpc/joblaunch/job_gpu/).
 
-  We also have @IGE,  {ref}`straighforward documentation<bigfoot>`, to start computing  on GPUs rapidly.
+  We also have @IGE, {ref}`straighforward documentation<bigfoot>`, to start computing on GPUs rapidly.
 
 
 
