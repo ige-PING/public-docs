@@ -28,7 +28,7 @@ To contribute to the jupyter book or propose corrections, you should do the foll
 If you are the one making the modifications, two solutions :
   - either you do it online : you create a branch, modify the files in it
   - either you do it locally (for bigger modifications or reorganization) :
-     -  clone the repo locally ```git@github.com:ige-calcul/public-docs.git```
+     -  clone the repo locally ```git@github.com:ige-ping/public-docs.git```
      -  make sure you create your branch from the latest main branch: \
        `git checkout main` \
        `git pull`
