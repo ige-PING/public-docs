@@ -24,7 +24,7 @@ and getting approved by the IGE direction and IT department.
 A good practice is to provide at least two IP adresses to secure the connections,
 as for instance, the IP address of your personnal desktop,
 and at least one secured IGE server (one which is always alive
-and which is directly accessible fro the outside world).
+and which is directly accessible from the outside world).
 
 ## Connecting to Jean-Zay
 
