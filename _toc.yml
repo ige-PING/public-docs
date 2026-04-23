@@ -34,6 +34,10 @@ chapters:
   - file: docs/wrf
   - file: docs/wrf-chem-polar
 - file: docs/remote-sensing
+  sections:
+  - file: docs/rs_cryo
+  - file: docs/rs_ocean
+  - file: docs/rs_hydro
 - file: docs/software-development
 - file: docs/events
 - file: docs/ige-projects
