@@ -3,8 +3,10 @@
 
 [IDRIS](http://www.idris.fr/docs/idris/missions)
 is the national computing center of the CNRS.
+
 Most information on the Jean-Zay machine can be found
 on the [Jean-Zay webpage at IDRIS](http://www.idris.fr/docs/jean-zay/nouvel-utilisateur/).
+
 The following gives only a brief summary of useful commands and procedures.
 
 ## Getting an account
