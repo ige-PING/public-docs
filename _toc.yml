@@ -18,6 +18,7 @@ chapters:
   - file: docs/clusters/Gricad/bigfoot
   - file: docs/clusters/TGCC/TGCC-infos
   - file: docs/clusters/IDRIS/IDRIS-infos
+  - file: docs/clusters/CINES/CINES-infos
 - file: docs/follow-tutorials
   sections:
   - file: docs/tutorials/ghpages
