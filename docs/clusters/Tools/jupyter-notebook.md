@@ -9,18 +9,20 @@
  micromamba install jupyter
  jupyter notebook --generate-config
 ```
-
-In:  $HOME/.jupyter/jupyter_notebook_config.py
-Add these two lines :
-
 ```{caution}
+Complete the  $HOME/.jupyter/jupyter_notebook_config.py file by adding 2 lines
+```
+
+Two ways to do it, either open the file and add it by hand
+
+```
 c.NotebookApp.open_browser = False
 c.NotebookApp.ip = '0.0.0.0'
 ```
 
-Or use these commands from a terminal:
+Or copy/paste these commands in a terminal:
 
-```{caution}
+```
 echo "c.NotebookApp.open_browser = False" >> ~/.jupyter/jupyter_notebook_config.py
 echo "c.NotebookApp.ip = '0.0.0.0'" >> ~/.jupyter/jupyter_notebook_config.py
 ```
