@@ -15,7 +15,7 @@ Detailed documentation of the polar-specific developments is available in [polar
 
 ### Infrastructure
 
-A dedicated [**infrastructure**](https://github.com/WRF-Chem-Polar/WRF-infra) is provided to support reproducible and efficient workflows, including:
+A dedicated [infrastructure](https://github.com/WRF-Chem-Polar/WRF-infra) is provided to support reproducible and efficient workflows, including:
 - Model configuration and execution scripts 
 - Automated testing of developments  
 - Post-processing and analysis tools  
