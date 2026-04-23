@@ -22,6 +22,17 @@ chapters:
   - file: docs/tutorials/documentation 
 - file: docs/data-warehouses
 - file: docs/modeling-systems
+  sections:
+  - file: docs/elmer-ice
+  - file: docs/lmdz
+  - file: docs/mar
+  - file: docs/nemo
+  - file: docs/netxsim
+  - file: docs/oddin
+  - file: docs/oggm
+  - file: docs/parflow
+  - file: docs/wrf
+  - file: docs/wrf-chem-polar
 - file: docs/remote-sensing
 - file: docs/software-development
 - file: docs/events
