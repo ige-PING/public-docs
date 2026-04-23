@@ -1,5 +1,5 @@
 
-# Computing on Jean-Zay at IDRIS
+# IDRIS: Jean-Zay
 
 [IDRIS](http://www.idris.fr/docs/idris/missions)
 is the national computing center of the CNRS.
