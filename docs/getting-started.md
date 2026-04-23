@@ -2,7 +2,7 @@
 
 Welcome to IGE!
 
-Here you can find useful information about how we conduct scientific analysis, and ressources to get you up to speed with your fellow colleagues.
+Here you can find useful information about how we conduct scientific analysis, and resources to get you up to speed with your fellow colleagues.
 
 
  - We generally use GNU/Linux and MacOS distributions, so a prerequisiste is to know basic Unix Shell commands. If it is not your case, have a look at this [tutorial](https://swcarpentry.github.io/shell-novice/).
