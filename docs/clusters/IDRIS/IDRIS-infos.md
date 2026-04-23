@@ -23,7 +23,8 @@ and getting approved by the IGE direction and IT department.
 
 A good practice is to provide at least two IP adresses to secure the connections,
 as for instance, the IP address of your personnal desktop,
-and at least one secured IGE server (one which is always alive).
+and at least one secured IGE server (one which is always alive
+and which is directly accessible fro the outside world).
 
 ## Connecting to Jean-Zay
 
@@ -102,13 +103,15 @@ you can use the resources of each of them.
 - To change the default project : `idrproj -d grp1`
 - To change the active project : `eval $(idrenv -d grp1)`
 
-Be careful, switching projects will change the env variables $HOME, $SCRATCH, $WORK and $STORE.
+Be careful, switching projects will change the env variables HOME, SCRATCH, WORK and STORE.
 
 ## Conda environment
 
-- Conda is already installed on jean-zay, you can activate one of the pre-existing environment via the `module load python=version` command (see all the versions available with `module avail python`)
+- Conda is already installed on jean-zay, you can activate one of the pre-existing environment
+via the `module load python=version` command (see all the versions available with `module avail python`)
 
-- You can then create your own environment, that will create a .conda repository in your $HOME, you better move it to your $WORK and make a link, because it will increase in size and inodes quite rapidly.
+- You can then create your own environment, that will create a .conda repository in your HOME,
+you better move it to your WORK and make a link, because it will increase in size and inodes quite rapidly.
 
 
 
