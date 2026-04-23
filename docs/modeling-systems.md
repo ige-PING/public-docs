@@ -25,11 +25,11 @@ MAR regional climate model
 
 
 :::{grid-item-card} 
-:link: ../docs/wrf-chem
+:link: ../docs/wrf
 :link-type: doc
 :class-header: bg-light
 
-WRF-CHEM
+WRF
 ^^^
 ```{image} ../images/wrf-chem.jpg
 :alt: wrf-chem
@@ -39,6 +39,24 @@ WRF-CHEM
 ```
 
 IGE WRF and WRF-Chem 2024 training workshop
+
+:::
+
+:::{grid-item-card} 
+:link: ../docs/wrf-chem-polar
+:link-type: doc
+:class-header: bg-light
+
+WRF-Chem-Polar
+^^^
+```{image} ../images/wrf-chem-polar-logo.png
+:alt: wrf-chem-polar
+:class: bg-primary mb-1
+:width: 200px
+:align: center
+```
+
+Fork of WRF-Chem developed at IGE and LATMOS for polar regions
 
 :::
 

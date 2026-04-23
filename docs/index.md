@@ -196,11 +196,11 @@ Learn more about the state of the art
 
 
 :::{grid-item-card} 
-:link: ../docs/awesome-ige-calcul
+:link: ../docs/awesome-ige-ping
 :link-type: doc
 :class-header: bg-light
 
-Awesome IGE CALCUL
+Awesome IGE PING
 ^^^
 ```{image} ../images/awesome.jpg
 :alt: awesome
@@ -209,16 +209,16 @@ Awesome IGE CALCUL
 :align: center
 ```
 
-Most popular repositories on Github
+Repositories we 🫀 on Github
 
 :::
 
 :::{grid-item-card} 
-:link: ../docs/about-ige-calcul
+:link: ../docs/about-ige-ping
 :link-type: doc
 :class-header: bg-light
 
-About IGE CALCUL
+About IGE PING
 ^^^
 ```{image} ../images/about-us.jpg
 :alt: about-us

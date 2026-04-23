@@ -5,7 +5,7 @@ Welcome to IGE!
 Here you can find useful information about how we conduct scientific analysis, and resources to get you up to speed with your fellow colleagues.
 
 
- - We generally use GNU/Linux and MacOS distributions, so a prerequisiste is to know basic Unix Shell commands. If it is not your case, have a look at this [tutorial](https://swcarpentry.github.io/shell-novice/).
+ - We generally use GNU/Linux and MacOS distributions, so a prerequisiste is to know basic Unix Shell commands. If this is not the case for you, have a look at this [tutorial](https://swcarpentry.github.io/shell-novice/).
 
  - If you are a Windows user, please read the following  [Windows User page](./clusters/Tools/windows_users.md). This will help you to connect to the clusters and set up your environment.
    
@@ -17,8 +17,8 @@ Here you can find useful information about how we conduct scientific analysis, a
 
  - Some like to use [jupyter notebooks](https://jupyter.org/) to have code and corresponding plots in the same document, along with some text, equations and/or pictures. Learn how to install and use them [here](https://docs.jupyter.org/en/latest/)
 
- - You may want to access some remote computers in order to have more ressources than on your personnal laptop, or to access specific datasets. For this you have several options:
-    - The lab servers ige-calcX allow you to access some CPUs and GPUs. Learn how to access and use them [here](clusters/Ige/ige-calcul1.md).
+ - You may want to access some remote computers in order to have more resources than on your personnal laptop, or to access specific datasets. For this you have several options:
+    - The lab servers ige-calcul{1,2,3,4} allow you to access some CPUs and GPUs. Learn how to access and use them [here](clusters/Ige/ige-calcul1.md).
     - The Grenoble meso computing center [GRICAD](https://gricad.univ-grenoble-alpes.fr/) for bigger computations. Learn how to use this resource [here](clusters/Gricad/dahu.md).
     - The national supercomputers located at [IDRIS](http://www.idris.fr/), [CINES](https://www.cines.fr/) or [CEA](https://www-hpc.cea.fr/fr/complexe/tgcc-JoliotCurie.htm) for even bigger computations [tutorials to come soon].
 
