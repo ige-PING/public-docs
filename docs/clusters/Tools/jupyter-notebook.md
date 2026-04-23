@@ -11,11 +11,18 @@
 ```
 
 In:  $HOME/.jupyter/jupyter_notebook_config.py
-Add these two lines:
+Add these two lines :
 
-```
+```{caution}
 c.NotebookApp.open_browser = False
-c.NotebookApp.ip = '0.0.0.0
+c.NotebookApp.ip = '0.0.0.0'
+```
+
+Or use these commands from a terminal:
+
+```{caution}
+echo "c.NotebookApp.open_browser = False" >> ~/.jupyter/jupyter_notebook_config.py
+echo "c.NotebookApp.ip = '0.0.0.0'" >> ~/.jupyter/jupyter_notebook_config.py
 ```
 
 # Connecting to the compute node from dahu
