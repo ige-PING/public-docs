@@ -1,16 +1,10 @@
-(igecal1)=
-
 # IGE clusters
 
+IGE computing servers are  ige-calcul[1-4]: {ige-calcul1, ige-calcul2, ige-calcul3, ige-calcul4}
 
-IGE computing servers are  ige-calcul[1-4]:{ ige-calcul1, ige-calcul2, ige-calcul3, ige-calcul4}
+You can replace calcul1 by calcul2, calcul3, or calcul4 in the following documentation depending on the cluster your choose.
 
-You can replace calcul1 by calcul2,3,4 in the following documentation depending on the cluster your choose
-
-### Features of the clusters
-
-
-
+## Features of the clusters
 
 |          | ige-calcul1     | ige-calcul2   |  ige-calcul3    | ige-calcul4       |
 | ---------|:---------------:|:-------------:|:--------------:|:------------------:|
@@ -18,7 +12,6 @@ You can replace calcul1 by calcul2,3,4 in the following documentation depending 
 | Total CPU avec HT  | 96          |72             |112             | 64                 |
 | RAM      |  256 Go         |  512 Go       |  768 Go        | 256 Go             |
 | GPU      | NVIDIA A40 (46G)     |   NO     | NVIDIA RTX 6000 (24G)| 2 NVIDIA RTX A4500 (2x20G) |
-
 
 ## Connection to the server
 
