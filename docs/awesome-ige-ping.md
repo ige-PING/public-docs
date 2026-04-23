@@ -1,4 +1,4 @@
-# Awesome IGE Calcul
+# Awesome IGE PING
 
 What is an Awesome List? Awesome lists are among the most popular repositories on GitHub. The main idea is simple: to gather as many wonderful and relevant resources as possible relating to a theme.
 Their structure is extremely simple: a list of links, each potentially described by a single line and possibly arranged by category.
