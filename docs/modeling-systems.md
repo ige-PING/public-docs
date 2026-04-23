@@ -175,3 +175,19 @@ neXtSIM
 ```
 The next generation Sea Ice Model 
 :::
+
+:::{grid-item-card} 
+:link: ../docs/nanuq
+:link-type: doc
+:class-header: bg-light
+
+NANUQ
+^^^
+```{image} ../images/BBM.png
+:alt: nanuq
+:class: bg-primary mb-1
+:width: 200px
+:align: center
+```
+NANUQ - a lightweigth sea-ice model 
+:::
