@@ -111,7 +111,7 @@ See examples on the IDRIS website.
 - Load all modules required by your application in the submission script.
 - Include commands to run your application in the submission script.
 This depends on the partition used.
-- Submit job with `sbatch` and check status with `squeue`.
+- Submit job with `sbatch` and check status with `squeue -u[your_user_name]`.
 - Postprocess the output data, for instance by moving them to the STORE workspace.
 Again, this can be done using the `prepost` partition.
 It is better if this can be automatized, to avoid data losses.
