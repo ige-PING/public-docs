@@ -106,10 +106,12 @@ which does not burn resources from your allocation, and
 which can access to the store (unlike the computation partitions).
 - Write the header of the [SLURM](http://www.idris.fr/docs/jean-zay/slurm/slurm)
 submission script asking for resources from a given partition.
+Usually prefer specifying the partition here (rather than as an option to `sbatch`).
 See examples on the IDRIS website.
 - Load all modules required by your application in the submission script.
 - Include commands to run your application in the submission script.
 This depends on the partition used.
+- Submit job with `sbatch` and check status with `squeue`.
 - Postprocess the output data, for instance by moving them to the STORE workspace.
 Again, this can be done using the `prepost` partition.
 It is better if this can be automatized, to avoid data losses.
