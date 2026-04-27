@@ -103,7 +103,7 @@ This also depends on the resources requested in the writing of the project.
 moving them from the STORE to the SCRATCH workspace.
 This can be done with the `prepost` partition,
 which does not burn resources from your allocation, and
-which can access to the store (unlike the computation partitions).
+which can access to the STORE (unlike the computation partitions).
 - Write the header of the [SLURM](http://www.idris.fr/docs/jean-zay/slurm/slurm)
 submission script asking for resources from a given partition.
 Usually prefer specifying the partition here (rather than as an option to `sbatch`).
