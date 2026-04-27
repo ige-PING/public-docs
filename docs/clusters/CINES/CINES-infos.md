@@ -76,7 +76,7 @@ They can be accessed using environment variables:
             usually used to make moderate size simulation or run testcases.
             Quota is per project and typical status is full,
             so be careful to avoid blocking other users.
-  - **$SCRATCHDIR** : workspace available **big data** (no quota), but only **temporary**
+  - **$SCRATCHDIR** : workspace available for **big data** (no quota), but only **temporary**
                (erased automatically after one month),
                with very fast access from the processor,
                usually used to put data used and produced by big simulations.
