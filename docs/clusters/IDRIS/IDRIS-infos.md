@@ -101,7 +101,7 @@ or a [GPU partition](http://www.idris.fr/docs/jean-zay/slurm/slurm_partitions_gp
 This also depends on the resources requested on the project.
 - Preprocess the data required by your application, for example
 moving them from the STORE to the SCRATCH workspace.
-This can be done with the 'prepost' partition,
+This can be done with the `prepost` partition,
 which does not burn resources from your allocation, and
 which can access to the store (unlike the computation partitions).
 - Write the header of the [SLURM](http://www.idris.fr/docs/jean-zay/slurm/slurm)
@@ -111,6 +111,7 @@ See examples on the IDRIS website.
 - Include commands to run your application in the submission script.
 This depends on the partition used.
 - Postprocess the output data, for instance by moving them to the STORE workspace.
+Again, this can be done using the `prepost` partition.
 It is better if this can be automatized, to avoid data losses.
 
 ## Computing on several projects
