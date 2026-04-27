@@ -110,7 +110,10 @@ which can access to the STORE (unlike the computation partitions).
 submission script asking for resources from a given partition.
 Usually prefer specifying the partition here (rather than as an option to `sbatch`).
 See examples on the IDRIS website.
-- Load all modules required by your application in the submission script.
+- Load all modules required by your application in the submission script
+(after reinitializing with `module purge`).
+You can get the list of all available modules with `module avail`
+and the list of loaded modules with `module list`.
 - Include commands to run your application in the submission script.
 This depends on the partition used.
 - Submit job with `sbatch` and check status with `squeue -u[your_user_name]`.
