@@ -80,7 +80,7 @@ They can be accessed using environment variables:
                usually used to put data used and produced by big simulations.
                Good practice is to automatically save final results to STORE
                by a separate postprocessing to avoid automatic deletion.
-  - **$STORE** : safe long-term storage of big data, not accessible from computing jobs.
+  - **$STORE** : storage of **big data**, **safe** and **long-term**, not accessible from computing jobs.
              Be careful of the limited quota on the number of files (inodes),
              thus avoid storing many small files and make archives if necessary (using tar).
              Quota is per project, so check what you do (in size and inodes).
