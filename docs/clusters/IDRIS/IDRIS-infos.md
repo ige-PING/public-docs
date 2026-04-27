@@ -57,6 +57,7 @@ to avoid giving your password at each connection.
 
 Before producing data, always check that your project
 has got enough resources to store them.
+
 To know about available quota, run the commands:
 `idr_quota_user`and `idr_quota_project`.
 
@@ -89,13 +90,14 @@ They can be accessed using environment variables:
 
 Before running computations, always check that your project 
 has got enough resources.
+
 To know about available resources, run the command': `idracct`.
 
 All details on job submissions can be found
 [here](http://www.idris.fr/docs/category/exécutioncontrôle-de-travaux).
 
 Usually, you have to go through the following steps:
-- Decide which partition of the machine you want to use for your applications.
+- Decide which partition of the machine you want to use for your application.
 This can be a [CPU partition](http://www.idris.fr/docs/jean-zay/slurm/slurm_partitions_cpu)
 or a [GPU partition](http://www.idris.fr/docs/jean-zay/slurm/slurm_partitions_gpu).
 This also depends on the resources requested in the writing of the project.
