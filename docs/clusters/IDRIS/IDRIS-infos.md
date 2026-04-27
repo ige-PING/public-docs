@@ -98,16 +98,16 @@ Usually, you have to go through the following steps:
 - Decide which partition of the machine you want to use for your applications.
 This can be a [CPU partition](http://www.idris.fr/docs/jean-zay/slurm/slurm_partitions_cpu)
 or a [GPU partition](http://www.idris.fr/docs/jean-zay/slurm/slurm_partitions_gpu).
-This also depends on the resources requested on the project.
+This also depends on the resources requested in the writing of the project.
 - Preprocess the data required by your application, for example
 moving them from the STORE to the SCRATCH workspace.
 This can be done with the `prepost` partition,
 which does not burn resources from your allocation, and
 which can access to the store (unlike the computation partitions).
 - Write the header of the [SLURM](http://www.idris.fr/docs/jean-zay/slurm/slurm)
-submission script asking for resources.
+submission script asking for resources from a given partition.
 See examples on the IDRIS website.
-- Load all required modules in the submission script.
+- Load all modules required by your application in the submission script.
 - Include commands to run your application in the submission script.
 This depends on the partition used.
 - Postprocess the output data, for instance by moving them to the STORE workspace.
