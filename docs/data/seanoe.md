@@ -8,7 +8,7 @@ Each dataset published on SEANOE will get a unique DOI which allow it to be publ
 
 Seanoe is accessible at the url : [seanoe.org](https://seanoe.org)
 
-<img src="../../images/SEANOE-page-accueil.png" alt="accueil" width="600"/>
+![](../../images/SEANOE-page-accueil.png)
 
 It primarily show the latest outputs.
 
