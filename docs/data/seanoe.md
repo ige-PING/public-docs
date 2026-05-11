@@ -6,9 +6,9 @@ Publication of datasets in SEANOE data is free of charge, with a limitation of 1
 
 Each dataset published on SEANOE will get a unique DOI which allow it to be published and cited in the most reliable and sustainable way.
 
-Seanoe is accessible at the url : [seanoe.org](seanoe.org)
+Seanoe is accessible at the url : [seanoe.org](https://seanoe.org)
 
-<img src="../images/SEANOE-page-accueil.png" alt="accueil" width="600"/>
+<img src="../../images/SEANOE-page-accueil.png" alt="accueil" width="600"/>
 
 It primarily show the latest outputs.
 
