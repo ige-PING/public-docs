@@ -69,7 +69,7 @@ How to put your data on Zenodo
 
 SEANOE
 ^^^
-```{image}  ./images/seanoe-icon-blue.svg
+```{image}  ../images/seanoe-icon-blue.svg
 :alt: jupyter-notebook
 :class: bg-primary mb-1
 :width: 200px
