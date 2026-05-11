@@ -61,3 +61,21 @@ ZENODO
 How to put your data on Zenodo
 
 :::
+
+:::{grid-item-card} 
+:link: ./data/seanoe
+:link-type: doc
+:class-header: bg-light
+
+SEANOE
+^^^
+```{image}  ./images/seanoe-icon-blue.svg
+:alt: jupyter-notebook
+:class: bg-primary mb-1
+:width: 200px
+:align: center
+```
+
+Ocean datawarehouse
+
+:::
