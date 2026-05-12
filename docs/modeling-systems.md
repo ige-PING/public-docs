@@ -92,7 +92,7 @@ GEOS-Chem
 :align: center
 ```
 
-Global atmospheric chemistry model
+Global chemical transport model
 
 :::
 
