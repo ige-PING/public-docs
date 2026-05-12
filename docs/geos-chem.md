@@ -14,7 +14,7 @@ Ressources :
 
 |   Name       |  Position         |  Team            |  Building          | 
 | -------------|:-----------------:|:----------------:|:------------------:|
-| H. Angot     | Researcher        | CHIANTI          |    OSUG-B          | 
+| [H. Angot](https://angoth.jimdofree.com/)     | CNRS Research Scientist        | CHIANTI          |    OSUG-B          | 
 | I. Hough     | Post-doc          | OPERA            |    OSUG-B          | 
 | E. Jahangir  | Research Engineer | CHIANTI          |    OSUG-B          | 
-| [J. Thomas](https://www.jennielthomas.fr)    | Senior Researcher        | OPERA            |    MCP             |
+| [J. Thomas](https://www.jennielthomas.fr)    | CNRS Senior Researcher        | OPERA            |    MCP             |
