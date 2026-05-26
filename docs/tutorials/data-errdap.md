@@ -29,7 +29,9 @@ You need to provide a ini file alongside your dataset called dataset_metadata.in
   - EndofSharingDate=
   - Netcdf=Oui ou Non
 
- - optionnal
+- optionnal
   - doi=
   - keywords=
+
+ An example can be found here : 
 
