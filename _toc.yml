@@ -24,6 +24,7 @@ chapters:
   - file: docs/tutorials/ghpages
   - file: docs/tutorials/documentation
   - file: docs/tutorials/upload-seanoe
+  - file: docs/tutorials/data-errdap
 - file: docs/data-warehouses
 - file: docs/modeling-systems
   sections:
