@@ -19,6 +19,7 @@ Last, your dataset must not exceed 5Tb as of today.
 You need to provide a ini file alongside your dataset called dataset_metadata.info with the following lines, answer on one line :
 
 - mandatory lines :
+  - DatasetId= (must be unique and available, otherwise it will be name of the directory+unique tag)
   - Title=
   - Summary= 
   - ContactName=
