@@ -18,17 +18,17 @@ Last, your dataset must not exceed 5Tb as of today.
 
 You need to provide a ini file alongside your dataset called dataset_metadata.info with the following lines, answer on one line :
 
-mandatory (default value)
-Title=
-Summary= 
-ContactName=
-ContactMail=
-Institution=IGE
-License=CCBY4
-EndofSharingDate=
-Netcdf=Oui ou Non
+- mandatory lines :
+  - Title=
+  - Summary= 
+  - ContactName=
+  - ContactMail=
+  - Institution=IGE
+  - License=CCBY4
+  - EndofSharingDate=
+  - Netcdf=Oui ou Non
 
-optionnal
-doi=
-keywords=
+ - optionnal
+  - doi=
+  - keywords=
 
