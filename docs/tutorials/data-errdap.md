@@ -2,6 +2,10 @@
 
 # Put data on IGE's Errdap catalog
 
+## Disclaimer
+
+This device is still a work in progress. Processes are not yet in production mode and are still dependent on the availability of a few people. If the need is identified and growing we will put in place automatic procedures and team's delegates so that it is more effective
+
 For now the catalog lives at http://129.88.193.205/erddap/index.html and is only accessible on UGA's network (use the [VPN](https://ige-intranet.osug.fr/spip.php?article640) outside the Campus)
 
 ## Prerequisites
