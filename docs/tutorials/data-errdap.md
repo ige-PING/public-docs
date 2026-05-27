@@ -37,5 +37,5 @@ You need to provide a ini file alongside your dataset called dataset_metadata.in
   - doi=
   - keywords=
 
- An example can be found here : 
+ An example can be found [here](https://github.com/ige-PING/public-docs/blob/main/docs/tutorials/template_dataset_metadata.info) 
 
