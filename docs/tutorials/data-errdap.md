@@ -14,9 +14,17 @@ First you need to be able to connect to [ige-calcul1](https://ige-ping.github.io
 
 Then, you have to create your personnal space into your team's space (e.g. cd /catalog/meocean/; mkdir alberta)
 
-Last, your dataset must not exceed 5Tb as of today.
-
 ## Transfer
+
+You can check the total amount of space available for the catalog by typing the command ```df -h``` and looking for the line
+
+```
+152.77.136.14:/DATA_ERDDAP/ige-calcul-storage            48T   13T   36T  27% /catalog
+```
+
+The third number will tell you how much space is available.
+
+For now, we suggest that your dataset does not exceed 5Tb.
 
 ## Documentation
 
