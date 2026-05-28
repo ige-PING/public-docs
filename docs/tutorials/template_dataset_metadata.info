@@ -1,7 +1,7 @@
 #One line per tag
 
 #Id of the dataset, must not contain blank spaces, diferrent for each dataset and short
-DatasetId=FAIRBANK
+DatasetId=FARBANK
 #Short description of the dataset
 Title=eNATL60 run with tides extraction for the Faroe Bank region
 #Longer description
