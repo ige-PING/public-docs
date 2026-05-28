@@ -1,6 +1,6 @@
 (errdap)=
 
-# Put data on IGE's Errdap catalog
+# Put data on IGE's ERDDAP catalog
 
 ## Disclaimer
 
