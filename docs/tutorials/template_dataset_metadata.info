@@ -13,5 +13,5 @@ ContactMail=aurelie.albert@uinv-grenoble-alpes.fr
 Institution=IGE
 License=CCBY4
 EndofSharingDate=31/12/2026
-Netcdf=Oui
+Netcdf=Oui #if netcdf or zarr files
 keywords=Ocean Simulation High-Resolution Faroe
