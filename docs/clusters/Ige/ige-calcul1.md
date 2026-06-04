@@ -238,11 +238,42 @@ When started, the job would run the hello_mpi program using 4 cores in parallel.
 
 ```bash
 chekkim@ige-calcul1:~$ sbatch job.sh
-Submitted batch job 51
-chekkim@ige-calcul1:~$ squeue
+[ige-calcul1  /home/chekkim ]$ squeue  -u chekkim
              JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
-                51    calcul helloMPI  chekkim  R       0:02      1 ige-calcul1
+           1096390    calcul helloMPI  chekkim  R       0:09      1 ige-calcul1
 ```
+
+## Get details about a running job
+
+```bash
+[ige-calcul1  /home/chekkim ]$    scontrol show jobid=1096390
+JobId=1096390 JobName=helloMPI
+   UserId=chekkim(322763) GroupId=ige-cryodyn(2102) MCS_label=N/A
+   Priority=4294574112 Nice=0 Account=cryodyn QOS=normal
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=00:00:45 TimeLimit=01:00:00 TimeMin=N/A
+   SubmitTime=2026-06-04T10:35:27 EligibleTime=2026-06-04T10:35:27
+   AccrueTime=2026-06-04T10:35:27
+   StartTime=2026-06-04T10:35:27 EndTime=2026-06-04T11:35:27 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-06-04T10:35:27 Scheduler=Backfill
+   Partition=calcul AllocNode:Sid=ige-calcul1:304583
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=ige-calcul1
+   BatchHost=ige-calcul1
+   NumNodes=1 NumCPUs=4 NumTasks=4 CPUs/Task=1 ReqB:S:C:T=0:0:*:*
+   TRES=cpu=4,mem=34000M,node=1,billing=4
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=1 MinMemoryNode=34000M MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/home/chekkim/job.sh
+   WorkDir=/home/chekkim
+   StdErr=/home/chekkim/HelloMPI.1096390.error
+   StdIn=/dev/null
+   StdOut=/home/chekkim/helloMPI.1096390.output
+```
+
 ##  Gpu support
 
 To use gpus in a job , add the following in your submission file
