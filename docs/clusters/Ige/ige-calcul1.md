@@ -32,12 +32,24 @@ Host calcul1
   GatewayPorts yes
 ```
 
+## Create ssh key and copy to the server
 then you should create and copy your ssh keys to the server:
 
 ```bash
 ssh-keygen -t rsa (tape Enter twice without providing a password)
 ssh-copy-id your_agalan_login@ige-ssh.u-ga.fr
 ssh-copy-id calcul1
+```
+```{note}
+
+For windows users, you can create your ssh key using Windows PowerShell
+
+1. Open Windows PowerShell  terminal
+2. type: ssh-keygen.exe -t rsa
+3. Copy the public key using this command
+   (base) PS C:\Users\me> type .ssh\id_rsa.pub | ssh your_agalan_login@ige-ssh.u-ga.fr "cat >> .ssh/authorized_keys"
+    and then
+   (base) PS C:\Users\me> type .ssh\id_rsa.pub | ssh calcul1 "cat >> .ssh/authorized_keys"
 ```
 
 Now, you should be able to connect without any password:
