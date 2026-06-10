@@ -46,10 +46,14 @@ For windows users, you can create your ssh key using Windows PowerShell
 
 1. Open Windows PowerShell  terminal
 2. type: ssh-keygen.exe -t rsa
-3. Copy the public key using this command
+3. Copy the public key using this command:
+
    (base) PS C:\Users\me> type .ssh\id_rsa.pub | ssh your_agalan_login@ige-ssh.u-ga.fr "cat >> .ssh/authorized_keys"
+
     and then
+
    (base) PS C:\Users\me> type .ssh\id_rsa.pub | ssh calcul1 "cat >> .ssh/authorized_keys"
+
 ```
 
 Now, you should be able to connect without any password:
