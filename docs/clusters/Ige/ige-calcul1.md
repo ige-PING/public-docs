@@ -17,13 +17,31 @@ You can replace calcul1 by calcul2, calcul3, or calcul4 in the following documen
 
 ## Connection to the server
 
-Before using slurm, make sure that you are able to connect to the server:
+Before using slurm, make sure that you are able to connect to the server (inside the lab or using the vpn):
 
 ```
 ssh your_agalan_login@ige-calcul1.u-ga.fr
 ```
 
-If you want to connect without using a password and from outside the lab, add these 4 lines to the file $HOME/.ssh/config (create it if you don't have it):
+If you want to connect without using a password and from outside the lab, create an ssh key and  a config file:
+
+## Create a ssh key 
+
+```bash
+ssh-keygen -t rsa (tape Enter twice without providing a password)
+```
+
+```{note}
+For windows users, you can create your ssh key using Windows PowerShell
+
+1. Open Windows PowerShell  terminal
+2. type: ssh-keygen.exe -t rsa
+
+```
+
+## Set the config file and Copy the ssh key 
+
+Add these 4 lines to the file $HOME/.ssh/config (create it if you don't have it)
 
 ```
 Host calcul1
@@ -32,21 +50,19 @@ Host calcul1
   GatewayPorts yes
 ```
 
-## Create ssh key and copy to the server
-then you should create and copy your ssh keys to the server:
+Then you should copy your ssh key to the server:
 
 ```bash
-ssh-keygen -t rsa (tape Enter twice without providing a password)
 ssh-copy-id your_agalan_login@ige-ssh.u-ga.fr
 ssh-copy-id calcul1
 ```
+
 ```{note}
 
-For windows users, you can create your ssh key using Windows PowerShell
+For windows users, you can copy your ssh key using Windows PowerShell
 
 1. Open Windows PowerShell  terminal
-2. type: ssh-keygen.exe -t rsa
-3. Copy the public key using this command:
+2. Copy the public key using this command:
 
    (base) PS C:\Users\me> type .ssh\id_rsa.pub | ssh your_agalan_login@ige-ssh.u-ga.fr "cat >> .ssh/authorized_keys"
 
