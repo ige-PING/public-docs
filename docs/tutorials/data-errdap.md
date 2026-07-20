@@ -10,7 +10,7 @@ For now the catalog lives at http://129.88.193.205/erddap/index.html and is only
 
 ## Prerequisites
 
-First you need to be able to connect to [ige-calcul1](https://ige-ping.github.io/public-docs/docs/clusters/Ige/ige-calcul1.html#igecal1), this is where data transfer can happen 
+First you need to be able to {ref}`connect to ige-calcul1<igecal1>`. This is where data transfer can happen.
 
 Then, you have to create your personnal space into your team's space (e.g. cd /catalog/meocean/; mkdir alberta)
 
@@ -33,7 +33,7 @@ You need to provide a ini file alongside your dataset called dataset_metadata.in
 - mandatory lines :
   - DatasetId= (must be unique and available, otherwise it will be name of the directory+unique tag)
   - Title=
-  - Summary= 
+  - Summary=
   - ContactName=
   - ContactMail=
   - Institution=IGE
@@ -45,5 +45,4 @@ You need to provide a ini file alongside your dataset called dataset_metadata.in
   - doi=
   - keywords=
 
- An example can be found [here](https://github.com/ige-PING/public-docs/blob/main/docs/tutorials/template_dataset_metadata.info) 
-
+ An example can be found [here](https://github.com/ige-PING/public-docs/blob/main/docs/tutorials/template_dataset_metadata.info)
