@@ -6,9 +6,6 @@ IGE computing servers are  ige-calcul[1-4]: {ige-calcul1, ige-calcul2, ige-calcu
 
 You can replace calcul1 by calcul2, calcul3, or calcul4 in the following documentation depending on the cluster your choose.
 
-```{contents} Table of Contents
-:depth: 2
-```
 
 ## Features of the clusters
 
@@ -181,7 +178,7 @@ We recommend that you use {ref}`Micromamba<mamba>` instead of conda/miniconda.
 
 Micromamba is just faster then conda !
 
-Check {ref}`Here<mamba>` how to set up your python environement with micromamba.
+Check {ref}`here<mamba>` how to set up your python environement with micromamba.
 
 
 ## Job submission example
