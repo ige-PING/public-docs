@@ -1,4 +1,4 @@
-(errdap)=
+(erddap)=
 
 # Put data on IGE's ERDDAP catalog
 
