@@ -6,6 +6,10 @@ IGE computing servers are  ige-calcul[1-4]: {ige-calcul1, ige-calcul2, ige-calcu
 
 You can replace calcul1 by calcul2, calcul3, or calcul4 in the following documentation depending on the cluster your choose.
 
+```{contents} Table of Contents
+:depth: 2
+```
+
 ## Features of the clusters
 
 |          | ige-calcul1     | ige-calcul2   |  ige-calcul3    | ige-calcul4       |
@@ -80,7 +84,7 @@ ssh calcul1
 
 ```{note}
 Once connected to the cluster , you will need to manage your files and your codes.
-If you are not familair with editors like vim, emacs , nano, you can use [VScode](../../clusters/Tools/vscode.md)
+If you are not familair with editors like vim, emacs , nano, you can use {ref}`VSCode<vscode>`
 ```
 
 Then you should ask for a storage space and a slurm account.
@@ -89,7 +93,8 @@ Available slurm accounts are:
 
 ```
 cryodyn
-meom
+meocean
+opera
 phyrev
 hmcis
 hydrimz
@@ -99,7 +104,7 @@ ice3
 chianti
 ```
 
-Please send an email to `mondher.chekki@uXXXX-gYYYY-aZZZZ.fr asking for storage under /workdir and /worldir2 and a slurm account by providing the name of your team and the space you need (1G,10G,100G,1TB).
+Please send an email to `mondher.chekki@uXXXX-gYYYY-aZZZZ.fr asking for storage under /workdir and /workdir2 and a slurm account by providing the name of your team and the space you need (1G,10G,100G,1TB).
 
 
 ## Available softwares
@@ -168,15 +173,15 @@ chekkim@DESKTOP-JS95HH3:~$ ssh -o PreferredAuthentications=password -o PubkeyAut
  If you just need to connect to the cluster and run jupyter notebook or a code, you can do it by using the jupyterhub
  By connecting , it will automatically submit a job with the ressources you asked and open a jupyterlab for you
  You can also access the vscode via the browser automatically. This vscode is running at the same time of your job and using the same ressources.
- Please refer to this doc [How to run jupyter notebooks on Ige clusters](../../clusters/Tools/jupyterhub.md)
+ Please refer to this doc {ref}`How to run jupyter notebooks on Ige clusters<ige-jupyterhub>`
 
 ## Running python code on the clusters 
 
-We recommend that you use [micromamba](https://mamba.readthedocs.io/en/latest/user_guide/micromamba.html) instead of conda/miniconda.
+We recommend that you use {ref}`Micromamba<mamba>` instead of conda/miniconda.
 
 Micromamba is just faster then conda !
 
-Check [here](../../clusters/Tools/micromamba.md) how to set up your python environement with micromamba.
+Check {ref}`Here<mamba>` how to set up your python environement with micromamba.
 
 
 ## Job submission example
