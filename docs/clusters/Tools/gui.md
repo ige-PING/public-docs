@@ -1,8 +1,6 @@
-(clustertips)=
+(gui)=
 
-# General tips
-
-## GUI applications on clusters
+# GUI applications on clusters
 
 Even though supercomputers are accessed via a text-based SSH connection, you can usually open applications that have a
 graphical user interface (GUI) and which are installed on the supercomputer (for example: `ncview`). In this case, the

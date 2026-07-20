@@ -1,3 +1,5 @@
+(windows)=
+
 # Windows users
 
 ## WSL (Windows Subsystem Linux)
