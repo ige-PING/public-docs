@@ -1,9 +1,19 @@
+(openreprolab)=
+
 # OpenReproLab
 
-OpenReproLab is a support provided by PING to M2 students. The aim is to pool the IGE's best practices around computation, and to put into practice the ideas of Open science and Reproducible research. Students and supervisors are therefore invited to take part in this initiative to co-construct tomorrow's research.
+OpenReproLab teaches first-year PhD students industry-grade computing tools and methods to produce FAIR and reproducible science. More generally, this programme fosters a culture of scientific openness and transparency, where all relevant data and software produced during the scientific activity are freely accessible and reusable, well-documented, and citable, and where all published results are fully reproducible.
 
-## 2025 session:
-Here are some of the features expected in this first round. Everything underneath is subject to potential change.
+> [!NOTE]
+> OpenReproLab first started in 2025 and was initially targeted at Master students doing internships at IGE. Since then, it has been decided to offer it to first-year PhD students instead, so that they can apply the methods learned in OpenReproLab throughout their doctoral studies.
+
+## 2026-2027 session
+
+This section is under construction.
+
+## 2025-2026 session
+
+Below are some of the features of the first offering of OpenReproLab.
 
 ### What we can provide
 - a cloud computing interface based on local resources and services
