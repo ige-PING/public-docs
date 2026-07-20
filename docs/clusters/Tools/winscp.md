@@ -24,7 +24,7 @@ Then follow the next steps:
 ![](./images/wscp1.PNG)
 
 
-## Mantis Config
+## Mantis config
 
 
 ![](./images/winscp1.PNG)
@@ -32,7 +32,7 @@ Then follow the next steps:
 ![](./images/winscp2.PNG)
 
 
-## Ige calcul1 Config
+## ige-calcul1 config
 
 
 ![](./images/wscp2.PNG)
