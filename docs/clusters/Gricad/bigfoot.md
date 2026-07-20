@@ -11,7 +11,7 @@ Several nodes are accessible to you:
     1. NVIDIA Tesla V100 NVLink 4 GPUs
     2. Nodes with 2 NVIDIA A100
     3. Grace-Hopper node with 1 chip GH200 (ARM plus GPU in HBM3e)
-    
+
 
 Here is a complete list:
 
@@ -36,28 +36,25 @@ chekkim@bigfoot:~$ recap.py
  # of GPUS: 10 A100, 28 V100, 1 GH200
 ```
 
+In order to connect, you should refer to the {ref}`Dahu documentation<dahu>` to create the ssh keys. The connection process is similar, with the following differences:
 
+In the file **$HOME/.ssh/config** :
 
-
-In order to connect , you should refer to the [dahu page](https://ige-calcul.github.io/public-docs/docs/clusters/Gricad/dahu.html#first-connection)  to create the ssh keys , the connection is the same, here are the differences:
-
- In the file **$HOME/.ssh/config** : 
-  
 ```
-Host bigfoot 
-ProxyCommand ssh -qX login_gricad@trinity.u-ga.fr nc bigfoot.u-ga.fr 22  
-User login_gricad  
+Host bigfoot
+ProxyCommand ssh -qX login_gricad@trinity.u-ga.fr nc bigfoot.u-ga.fr 22
+User login_gricad
 GatewayPorts yes
 ```
 
 ```{warning}
 replace **login_gricad** with yours
 ```
-  
-Next, you need to set the correct rights:  
+
+Next, you need to set the correct permissions:
 
 ```
-chmod ugo-rwx .ssh/config 
+chmod ugo-rwx .ssh/config
 chmod u+rw .ssh/config
 ```
 
@@ -65,23 +62,23 @@ chmod u+rw .ssh/config
 ```{warning}
 keep read/write rights only for the user
 ```
-  
-Then, copy the ssh keys  
-```
-ssh-copy-id login_gricad@trinity.u-ga.fr 
-```
- 
-Enter the agalan passwod  
 
-then 
+Then, copy the ssh keys
+```
+ssh-copy-id login_gricad@trinity.u-ga.fr
+```
+
+Enter the agalan passwod
+
+then
 
 ```
 ssh-copy-id bigfoot
 ```
-  
-Enter the agalan password  
-  
-and you should be good for future sessions.  
+
+Enter the agalan password
+
+and you should be good for future sessions.
 
 ## Submit a job
 
@@ -95,7 +92,7 @@ Replace gpu with cores (max 4 for nvidia V100)
 #OAR -l nodes=1/gpu=1,walltime=00:10:00
 ```
 
-Ask for the gpu model you need A100/V100, 
+Ask for the gpu model you need A100/V100,
 
 ```
 #OAR -p gpumodel='A100'
@@ -132,10 +129,10 @@ You can also see a live usage of the gpu nodes using the "chandler" command
 
 
 ```{caution}
-For example, bigfoot1 has 4 gpus. If you bare using 1 gpu, you will get the 1/4  of the node ressources , i.e 1/4 of the number of cpus and  1/4 of the total  RAM 
+For example, bigfoot1 has 4 gpus. If you bare using 1 gpu, you will get the 1/4  of the node ressources , i.e 1/4 of the number of cpus and  1/4 of the total  RAM
 ```
 
-## Make a reservation 
+## Make a reservation
 
 Mainly to avoid waiting in the queue or for a training session
 
@@ -167,7 +164,7 @@ Job id    S User     Duration   System message
 2870075   R chekkim     0:07:45 R=72,W=0:59:53,J=R,P=sno-elmerice,T=container=testres|gh
 ```
 
-## Use the reservation 
+## Use the reservation
 
 Now connect directly to the node and start using the ressources
 
@@ -188,5 +185,3 @@ chekkim@bigfoot-gh1:~$
 ```{notes}
 Any member of the project (here sno-elmerice ) can connect to the ressources using the JOBID (-t inner=JOBID)
 ```
-
-

@@ -2,19 +2,19 @@
 
 # Jupyterhub on IGE Clusters
 
-Make sure you are able to connect to the clusters ige-calcul1/2//3/4 without any passwords
+Make sure you are able to connect to the clusters ige-calcul1/2/3/4 without any password.
 Please refers to the doc [Connect to the clusters](../Ige/ige-calcul1.md)
 
 
 ## Connect to the server
 
-If you are using the command 
+If you are using the command
 
 ```
 ssh  calcul1
 ```
 
-to connect to the cluster ige-calcul1 , then create the ssh tunnel using any port , here **8300**
+to connect to the cluster ige-calcul1, then create the ssh tunnel using any port , here **8300**
 
 ```
 ssh -fNL 8300:localhost:8000 calcul1
@@ -25,7 +25,7 @@ The jupyterhub is also available on the other clusters, i.e ige-calcul2 ige-calc
 Make sure to have a look to the features of each cluster as you can access to large memory (up to 700G) and Gpus
 ```
 
-Once this done, open a local browser , with this url
+Once this done, open a local browser, with this url:
 
 ```
 http://localhost:8300
@@ -159,7 +159,7 @@ python -m ipykernel install --name EnvPytorch --user --display-name "Pytorch"
 If you don't need to use python and only vscode, you can select **Terminal** for the User Interface, instead of jupyterlab or jupyter
 This will open only a terminal on the server
 ```
-Once you are connected to jupyterhub 
+Once you are connected to jupyterhub
 
 Open a terminal from the jupyter launcher  and get the informations to connect to the server in the output of your job
 
@@ -189,7 +189,7 @@ Then create an ssh tunnel with the given port
 ssh -fNL 46479:localhost:46479 calcul1/2/3/4
 ```
 
-and open your local  browser 
+and open the following URL in your web browser:
 
 ```
 http://localhost:46479
@@ -203,6 +203,6 @@ Then you can open any folder on the remote server
 
 ![](./images/codeserver2.PNG)
 
-and that's it , now you can modify your code and run vscode 
+and that's it. You can now modify your code and run vscode
 
 ![](./images/codeserver3.PNG)

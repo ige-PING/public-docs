@@ -7,7 +7,7 @@
 ```{note}
 Here we are using mantis-cargo to get/put data from Gricad cluster, and ige-calcul{1,2,3,4}  for Ige servers
 
-For mantis it uses a a direct connection. As for ige-calcuX connection, it uses a ssh tunnel through ige-ssh proxy
+For mantis it uses a a direct connection. As for ige-calculX connection, it uses a ssh tunnel through ige-ssh proxy
 
 **Make sure that you are able to connect to the clusters  without a password before going further**
 
@@ -15,7 +15,7 @@ Create a ssh key for:  [ mantis/dahu ](../../clusters/Gricad/dahu.md)  Or  [ ige
 
 ```
 
-You can download the last version from [ here ](https://winscp.net/eng/download.php) 
+You can download the last version from [ here ](https://winscp.net/eng/download.php)
 
 Then follow the next steps:
 
@@ -47,7 +47,7 @@ Make sure to change the username **chekkim** by your agalan login
 ```
 
 
-## Load the ssh key 
+## Load the ssh key
 
 ![](./images/wscp21.PNG)
 
@@ -61,7 +61,7 @@ At this step make sure you have already generated a key to connect to the cluste
 ![](./images/winscp5.PNG)
 
 ```{note}
-This will load the ssh key and convert it in a ppk format 
+This will load the ssh key and convert it in a ppk format
 ```
 
 ![](./images/wscp23.PNG)
@@ -101,4 +101,3 @@ Now you should save your configuration and give it a name otherwise everything w
 You can now connect and tranfer your files
 
 ![](./images/wscp6.PNG)
-
