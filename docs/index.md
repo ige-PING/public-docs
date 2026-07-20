@@ -5,10 +5,10 @@ This is the entry point to our user documentation. The following pages list the 
 
 
 ::::{grid} 1 1 5 2
-:class-container: text-center 
+:class-container: text-center
 :gutter: 3
 
-:::{grid-item-card} 
+:::{grid-item-card}
 :link: ../docs/getting-started
 :link-type: doc
 :class-header: bg-light
@@ -27,7 +27,7 @@ Get used to the environment
 :::
 
 
-:::{grid-item-card} 
+:::{grid-item-card}
 :link: ../docs/computing-clusters
 :link-type: doc
 :class-header: bg-light
@@ -45,7 +45,7 @@ Connect to available clusters
 
 :::
 
-:::{grid-item-card} 
+:::{grid-item-card}
 :link: ../docs/openreprolab
 :link-type: doc
 :class-header: bg-light
@@ -64,7 +64,7 @@ How to create Jupyter notebooks for Open Science
 :::
 
 
-:::{grid-item-card} 
+:::{grid-item-card}
 :link: ../docs/data-warehouses
 :link-type: doc
 :class-header: bg-light
@@ -77,17 +77,17 @@ Data
 :width: 200px
 :align: center
 ```
- Environment around Data 
+ Environment around Data
 
 :::
 
 
-:::{grid-item-card} 
+:::{grid-item-card}
 :link: ../docs/modeling-systems
 :link-type: doc
 :class-header: bg-light
 
-Modeling Systems 
+Modeling Systems
 ^^^
 ```{image} ../images/modeling-systems.jpeg
 :alt: modeling-systems
@@ -101,7 +101,7 @@ Learn more about the models used and developed at IGE
 :::
 
 
-:::{grid-item-card} 
+:::{grid-item-card}
 :link: ../docs/remote-sensing
 :link-type: doc
 :class-header: bg-light
@@ -120,7 +120,7 @@ Remote Sensing  @IGE
 :::
 
 
-:::{grid-item-card} 
+:::{grid-item-card}
 :link: ../docs/software-development
 :link-type: doc
 :class-header: bg-light
@@ -138,7 +138,7 @@ What are the best tools to use
 
 :::
 
-:::{grid-item-card} 
+:::{grid-item-card}
 :link: ../docs/follow-tutorials
 :link-type: doc
 :class-header: bg-light
@@ -156,7 +156,7 @@ Follow along tutorials
 
 :::
 
-:::{grid-item-card} 
+:::{grid-item-card}
 :link: ../docs/good-practices
 :link-type: doc
 :class-header: bg-light
@@ -176,7 +176,7 @@ What are the Best Practices
 :::
 
 
-:::{grid-item-card} 
+:::{grid-item-card}
 :link: ../docs/events
 :link-type: doc
 :class-header: bg-light
@@ -195,7 +195,7 @@ Learn more about the state of the art
 :::
 
 
-:::{grid-item-card} 
+:::{grid-item-card}
 :link: ../docs/ige-projects
 :link-type: doc
 :class-header: bg-light
@@ -213,7 +213,7 @@ Other IGE projects and ressources
 
 :::
 
-:::{grid-item-card} 
+:::{grid-item-card}
 :link: ../docs/about-ige-ping
 :link-type: doc
 :class-header: bg-light
@@ -226,8 +226,6 @@ About IGE PING
 :width: 200px
 :align: center
 ```
-Collaborate 
+Collaborate
 
 :::
-
-
