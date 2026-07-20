@@ -59,7 +59,7 @@ OpenReproLab
 :align: center
 ```
 
-How to create Jupyter notebooks for Open Science
+A course on tools and methods to produce FAIR and reproducible science
 
 :::
 
