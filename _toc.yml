@@ -6,19 +6,10 @@ chapters:
 - file: docs/getting-started
 - file: docs/computing-clusters
   sections:
-  - file: docs/clusters/general-tips
-  - file: docs/clusters/containers
-  - file: docs/clusters/Tools/vscode
-  - file: docs/clusters/Tools/micromamba
-  - file: docs/clusters/Tools/windows_users
-  - file: docs/clusters/Tools/winscp
   - file: docs/clusters/Ige/ige-calcul1
-  - file: docs/clusters/Tools/jupyterhub
-  - file: docs/clusters/Gricad/dahu
-  - file: docs/clusters/Gricad/bigfoot
-  - file: docs/clusters/TGCC/TGCC-infos
-  - file: docs/clusters/IDRIS/IDRIS-infos
-  - file: docs/clusters/CINES/CINES-infos
+  - file: docs/clusters/Gricad/general-infos
+  - file: docs/clusters/GENCI/general-infos
+  - file: docs/clusters/Tools/list
 - file: docs/follow-tutorials
   sections:
   - file: docs/tutorials/ghpages
