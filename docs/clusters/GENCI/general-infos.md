@@ -1,7 +1,7 @@
 (genci)=
-# Access to french supercomputers
+# National  supercomputers
 
-[GENCI](https://www.genci.fr/) is the frencha gency that provides access to the main 3 supercomputer centers :
+[GENCI](https://www.genci.fr/) is the french agency that provides access to the main 3 supercomputer centers :
   - {ref}`IDRIS<idris>`
   - {ref}`CINES<cines>`
   - {ref}`TGCC<tgcc>` 
