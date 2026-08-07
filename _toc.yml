@@ -38,6 +38,9 @@ chapters:
 - file: docs/SciML
   sections:
   - file: docs/intro-ML
+  - file: docs/ML-key-references.md
+  - file: docs/model-dissemination.md
+  - file: docs/compute-GPU.md
 - file: docs/events
 - file: docs/ige-projects
 - file: docs/about-ige-ping
