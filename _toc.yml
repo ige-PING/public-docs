@@ -35,6 +35,7 @@ chapters:
   - file: docs/rs_ocean
   - file: docs/rs_hydro
 - file: docs/software-development
+- file: docs/SciML
 - file: docs/events
 - file: docs/ige-projects
 - file: docs/about-ige-ping
