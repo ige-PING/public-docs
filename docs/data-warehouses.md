@@ -10,7 +10,7 @@ Here you can find all the informations regarding data warehouses
 :gutter: 3
 
 :::{grid-item-card} 
-:link: ./clusters/Tools/erddap
+:link: ./data/erddap
 :link-type: doc
 :class-header: bg-light
 
@@ -28,7 +28,7 @@ How to access and use ERDDAP
 :::
 
 :::{grid-item-card} 
-:link: ./clusters/Tools/summer
+:link: ./data/summer
 :link-type: doc
 :class-header: bg-light
 
@@ -45,7 +45,7 @@ How to get and access SUMMER STORAGE
 
 :::
 :::{grid-item-card} 
-:link: ./clusters/Tools/zenodo
+:link: ./data/zenodo
 :link-type: doc
 :class-header: bg-light
 
