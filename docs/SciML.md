@@ -8,7 +8,7 @@ Please refer to the page [Introduction to Machine Learning](./intro-ML.md) to fi
 
 We links the different computers and clusters with GPU available in order to train or test neural network at the IGE in the page [Computation on GPUs](./compute-GPU.md)
 
-We also provide tips and tricks to ensure that the GPU are indeed used!
+We also provide tips and tricks to ensure that the GPU are indeed used, a list of the most known libraries and framework.
 
 ## How to share your SciML model
 
