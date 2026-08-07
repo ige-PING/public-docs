@@ -2,6 +2,12 @@
 
 # Gricad cluster: Dahu
 
+The following can be applicable to all GRICAD clusters, so you can replace dahu by bigfoot or kraken
+
+```{contents} Table of Contents
+:depth: 2
+```
+
 ## First connection
 
 More details about Gricad infrastructure are available here:
