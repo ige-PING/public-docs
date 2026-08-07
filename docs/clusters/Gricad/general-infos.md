@@ -48,10 +48,10 @@ More details can be found on this [page](https://gricad-doc.univ-grenoble-alpes.
 The following can be applicable to all GRICAD clusters, so you can replace dahu by bigfoot or kraken
 
 ```{contents} Table of Contents
-:depth: 1
+:depth: 3
 ```
 
-## First connection
+### First connection
 
 More details about Gricad infrastructure are available here:
 
@@ -131,7 +131,7 @@ Once connected to the cluster , you will need to manage your files and your code
 If you are not familair with editors like vim, emacs , nano, you can use [VScode](../../clusters/Tools/vscode.md)
 ```
 
-## Running jobs on Gricad clusters
+### Running jobs on Gricad clusters
 
 Once you are connected to dahu, you will be able to run jobs with the scheduler named OAR 
 
@@ -146,7 +146,7 @@ For example, let's say that you need to run R calculations on the server :
   - To install R packages, either use [nix](https://gricad-doc.univ-grenoble-alpes.fr/hpc/softenv/nix/#r-packages) or [guix](https://gricad-doc.univ-grenoble-alpes.fr/hpc/softenv/guix/) environement.
     The easiest way is to use [micromamba](../../clusters/Tools/micromamba.md)
 
-### Job submission
+#### Job submission
 
   - Here's an example of a job header:
 
@@ -202,7 +202,7 @@ n_cores_asked x ( total_mem/n_cores)
 
 If  you want the whole memory, you should asked for all available cores (n_cores) in one node
 
-### Node information and usage
+#### Node information and usage
 
 You can easily get the description of the nodes using "recap.py" script
 ```
@@ -253,7 +253,7 @@ You can also see a live usage of the nodes using the "chandler" command
 chmod 750 job_exemple.oar  
 oarsub -S ./job_exemple.oar
 ```
-### Interactive submission
+#### Interactive submission
 
 **Use the interactive mode**
 
@@ -289,11 +289,12 @@ Here is an example of Memory usage for different nodes
 ![Dashbord Memory usage example](../../../images/nodedahu153RSS.PNG)
 
 
-##  Running jupyter notebooks on dahu/bigfoot
+###  Running jupyter notebooks on dahu/bigfoot
 
- Please refer to this doc [How to run jupyter notebooks on dahu](../../clusters/Tools/jupyter-notebook.md)
+ Please refer to this doc {ref}`How to run jupyter notebooks on dahu<jupyter-notebook>`
 
-## Storage on Gricad clusters
+ 
+### Storage on Gricad clusters
 
 **Workdir/Datastorage on dahu** 
 
@@ -411,7 +412,7 @@ You should also think about using github or [Gricad gitlab](https://gricad-gitla
 **/mantis**  is used in case you have **cold data** on /bettik that you are not going to use for a while ( let say < 6 months) but you need this data for future simulations
 
 
-## Elmer usage on Gricad clusters
+### Elmer usage on Gricad clusters
 
 Once connect to dahu, first install the intel compilers
 
