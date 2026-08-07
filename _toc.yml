@@ -37,7 +37,7 @@ chapters:
 - file: docs/software-development
 - file: docs/SciML
   sections:
-  - file: docs/intro_ML
+  - file: docs/intro-ML
 - file: docs/events
 - file: docs/ige-projects
 - file: docs/about-ige-ping
