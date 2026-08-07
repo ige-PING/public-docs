@@ -1,43 +1,13 @@
 # Computing clusters
 
-## IGE Clusters
 
-If you need fast access to small computing resources, or if you want to run matlab or other programs without any time limits, you can access the IGE cluster, which was set up for that.
+## Access to ressources
 
-The {ref}`following documentation<igecal1>` will guide you through the different steps you need to know to start computing immediately.
+Depending on your needs, several options are available to access CPU and/or GPU nodes for your computation :
 
-
-## External clusters
-
-
-
-#### 1.a Gricad CPU
-  Gricad infrastructure provides a lot of resources for all Grenoble University labs. It includes CPU/GPU resources.
-
-  For now the most used cluster is dahu which is used for CPU resources.
-
-  Gricad is open for any student/researcher/engineer. If you have a contract with Grenoble University, you have already an internal account defined by Agalan Credentials. If you are outside the campus and even outside France, you will get an external account as long as you have an institutional email.
-
-  For both cases you will need to log in to a special interface [Perseus](https://perseus.univ-grenoble-alpes.fr) and create an account anyway to join a project.
-
-  @IGE, we are a providing a {ref}`straighforward documentation<dahu>`, to start computing rapidly.
-
-  You can also have a look at [a more detailled documentation from Gricad](https://gricad-doc.univ-grenoble-alpes.fr/hpc/).
-
-#### 1.b Gricad GPU
-  As for **GPU resources and AI computing**, there is [another cluster named bigfoot](https://gricad-doc.univ-grenoble-alpes.fr/hpc/joblaunch/job_gpu/).
-
-  We also have @IGE, {ref}`straighforward documentation<bigfoot>`, to start computing on GPUs rapidly.
-
-
-
-2. CINES
-3. TGCC
-   
-  All the related information regarding the TGCC cluster can be found  [Here](./clusters/TGCC/TGCC.md)
-   
-4. Jean-zay
-
+  - {ref}`IGE clusters<igecal1>` : some CPU and GPU nodes accessible to all in the IGE lab (Tier 3)
+  - {ref}`GRICAD mesocenter<gricad>` : several clusters dedicated to HPC and/or AI with multiple CPUs and GPUs accessible to all UGA with an agalan account (Tier 2)
+  - {ref}`national supercomputers<genci>` : 3 supercomputers centers accessible through a request at GENCI (Tier 1)
 
 
 ## Code deployment
