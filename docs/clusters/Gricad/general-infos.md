@@ -17,8 +17,28 @@ You can also have a look at [a more detailled documentation from Gricad](https:/
 ## Architecture of the clusters
 
 ### Dahu
+
+Dahu was the main HPC part of GRICAD before the creation of kraken and gathers all CPUs
+
 ### Bigfoot
+
+Bigfoot gathers all GPU nodes before the creation of Kraken, as of August 2026, it is composed of :
+
+  - 3 nodes with 4 GPUs Tesla V100 with NV-link
+  - 4 nodes with 4 GPUs Tesla V100 with PCIe 
+  - 5 nodes with 2 GPUs Tesla A100 
+
 ### Kraken
+
+The kraken supercomputer is splitted in 2 specialized clusters : kraken-cpu and kraken-gpu (by default when you connect to kraken you end up on kraken-cpu)
+
+As of August 2026, Kraken is composed of :
+
+  - 58 AMD EPYC CPU nodes with 192 cores and 768Gb
+  - 12 AMD EPYC CPU fat nodes with 192 cores and 1536Gb
+  - 13 GPU nodes : AMD EPYC and NVIDIA H100 and H200
+
+More details can be found on this [page](https://gricad-doc.univ-grenoble-alpes.fr/hpc/kraken/kraken/)
 
 ## First connection
 
