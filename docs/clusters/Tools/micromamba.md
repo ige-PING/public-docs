@@ -91,6 +91,14 @@ micromamba activate pyferret
 Always create an environment for a single tool/application. This way , if you break an environment for a tool, you will still be able to use the others
 ```
 
+## Install a list of librairies in an environment
+
+If you have a list of packages in a file, with syntax like lib==1.2, you can install them in an environment with the command :
+
+```bash
+micromamba create -n myenv --file file.txt
+```
+
 ## Clone an environment
 
 Create a yaml file to copy an existing environment:
