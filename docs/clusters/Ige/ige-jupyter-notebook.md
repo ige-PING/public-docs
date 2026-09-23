@@ -1,4 +1,4 @@
-(ige-jupyterhub)=
+(ige-jupyternotebook)=
 
 # Jupyterhub on IGE Clusters
 

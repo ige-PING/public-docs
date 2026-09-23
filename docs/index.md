@@ -41,7 +41,7 @@ Computing Clusters
 :align: center
 ```
 
-Connect to available clusters
+Clusters and jupyterhubs
 
 :::
 

@@ -1,0 +1,183 @@
+(ige-jupyterhub)=
+
+# IGE Jupyterhub 
+
+A server of notebooks with ressources coming from ige-calcul1-7 has been deployed and is accessible at the address : https://ige-jupyterhub.univ-grenoble-alpes.fr/
+
+As of today (september 2026) it is only accessible from IGE network or via [UGA's VPN](https://ige-intranet.osug.fr/spip.php?article640)
+
+First, you will be asked for your agalan login/password
+
+![](../Tools/images/jupyterhub1.PNG)
+
+Then you get the different options to choose the needed resources
+1. Memory
+2. CPUs/ GPUs
+3. Time, etc...
+
+```{caution}
+If your job is taking time to get connected, you are problaly waiting in the queue
+You can connect using ssh , and check the ressources with **squeue -u $USER**
+```
+
+![](../Tools/images/jupyterhub2.PNG)
+
+Here is an example to choose the number of GPUs if there are any
+
+![](../Tools/images/jupyterhub2bisgpu.PNG)
+
+If you are allowed to run long jobs (more than 2 days), then the Qos longjobs will appear
+
+![](../Tools/images/jupyterhub2bislong.PNG)
+
+You can choose, which interface you need, jupyterlab/jupyter or just a terminal
+
+![](../Tools/images/jupyterhub2bisterm.PNG)
+
+Finally you are connected to the job and have access to different kernels (pre-built: Matlab +your own : R/...)
+
+![](../Tools/images/jupyterhub3.PNG)
+
+You can access to SLURM commands to check the status of your code, from a notebook
+
+```{Note}
+
+When the job is submit, it will read the $HOME/.profile file.
+You can add all the environment variable you need before jupyter notebook starts.
+If you need to change the Notebook Directory (default $HOME) , you can add the following in this file:
+
+export NOTEBOOK_DIR=/path/to/new/location
+
+```
+
+![](../Tools/images/slurm_magics.PNG)
+
+Check the cpu usage (extension on the left)
+
+![](../Tools/images/cpu_usage.PNG)
+
+Check the gpu usage (extension on the left)
+
+![](../Tools/images/gpu_usage.PNG)
+
+## Matlab usage
+
+```{Note}
+For the first usage you will be asked to give the license server (Network License Manager)
+27000@matlab.ige-grenoble.fr
+```
+
+![](../Tools/images/matlab_license.PNG)
+
+Once it is done, you will be able to run matlab and the configuration will be saved for future usages
+
+![](../Tools/images/matlab.PNG)
+
+## Exit the server
+
+In order to stop the kernel et kill the allocated job go to **Hub Control Panel**
+
+![](../Tools/images/exit_jupyterlab1.PNG)
+
+![](../Tools/images/exit_jupyterlab2.PNG)
+
+
+## Restart the server
+
+You can restart the server , by clicking on the button **Start My Server**
+It will ask you again for new ressources adn connect you to the server
+
+![](../Tools/images/restart_jupyterhub.PNG)
+
+# Add you own environment
+
+![](../Tools/images/kernel_env_install.PNG)
+
+You can add you own kernel/ environment created with micromamba for example
+
+## R example
+
+1. Create your R environment
+```
+  micromamba create -n Renv python=3.10 -c conda-forge
+  micromamba activate Renv
+  micromamba install r r-base r-essentials -c conda-forge
+```
+2. Add the kernel to your jupyterlab
+
+Open R terminal
+
+```
+ install.packages('IRkernel')
+ IRkernel::installspec()
+```
+## Pytorch example
+
+1. Create pytorch env
+```
+   micromamba create -n EnvPytorch python=3.10 -c conda-forge
+   micromamba activate EnvPytorch
+   micromamba install pytorch torchvision torchaudio  -c pytorch -c nvidia -c conda-forge
+   micromamba install ipykernel  -c conda-forge
+```
+2. Install the pytorch environment
+
+```
+python -m ipykernel install --name EnvPytorch --user --display-name "Pytorch"
+```
+![](../Tools/images/check_torch.PNG)
+
+
+## Run Vscode on the clusters
+
+```{Note}
+If you don't need to use python and only vscode, you can select **Terminal** for the User Interface, instead of jupyterlab or jupyter
+This will open only a terminal on the server
+```
+Once you are connected to jupyterhub
+
+Open a terminal from the jupyter launcher  and get the informations to connect to the server in the output of your job
+
+```
+head -10  $HOME/jupyterhub_slurmspawner_$SLURM_JOBID.log
+```
+
+Example for my JOBID=8:
+
+```
+chekkim@ige-calcul2:~$ head -10  jupyterhub_slurmspawner_8.log
+********************************************************************
+Starting code-server in Slurm
+Environment information:
+Date: mer. 12 févr. 2025 14:53:13 CET
+Allocated node: ige-calcul2
+Node IP:
+Path: /home/chekkim
+Password to access VSCode: user_jobid
+Listening on: 46479
+********************************************************************
+```
+
+Then create an ssh tunnel with the given port
+
+```
+ssh -fNL 46479:localhost:46479 calcul1/2/3/4
+```
+
+and open the following URL in your web browser:
+
+```
+http://localhost:46479
+```
+
+Entre the password:
+
+![](../Tools/images/codeserver1.PNG)
+
+Then you can open any folder on the remote server
+
+![](../Tools/images/codeserver2.PNG)
+
+and that's it. You can now modify your code and run vscode
+
+![](../Tools/images/codeserver3.PNG)
