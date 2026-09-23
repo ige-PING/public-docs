@@ -2,33 +2,19 @@
 
 # IGE Jupyterhub 
 
-A server of notebooks with ressources coming from ige-calcul1-7 has been deployed and is accessible at the address : https://ige-jupyterhub.univ-grenoble-alpes.fr/
+A server of notebooks with ressources coming from ige-calcul1-7 has been deployed and is accessible for anyone with agalan account at the address : https://ige-jupyterhub.univ-grenoble-alpes.fr/
 
 As of today (september 2026) it is only accessible from IGE network or via [UGA's VPN](https://ige-intranet.osug.fr/spip.php?article640)
 
-First, you will be asked for your agalan login/password
 
-![](../Tools/images/jupyterhub1.PNG)
+The landing page looks like this :
 
-Then you get the different options to choose the needed resources
-1. Memory
-2. CPUs/ GPUs
-3. Time, etc...
+[](../Tools/images/jupyterhub2.PNG)
 
-```{caution}
-If your job is taking time to get connected, you are problaly waiting in the queue
-You can connect using ssh , and check the ressources with **squeue -u $USER**
-```
-
-![](../Tools/images/jupyterhub2.PNG)
-
-Here is an example to choose the number of GPUs if there are any
-
-![](../Tools/images/jupyterhub2bisgpu.PNG)
-
-If you are allowed to run long jobs (more than 2 days), then the Qos longjobs will appear
-
-![](../Tools/images/jupyterhub2bislong.PNG)
+You get to choose several parameters for your jupyterhub session : 
+  - the partition : ioperf is preferred for an intensive data reading/writing, compute for other use
+  - CPUs/GPUs
+  - Time
 
 You can choose, which interface you need, jupyterlab/jupyter or just a terminal
 

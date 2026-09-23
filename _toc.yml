@@ -7,6 +7,7 @@ chapters:
 - file: docs/computing-clusters
   sections:
   - file: docs/clusters/Ige/ige-calcul1
+  - file: docs/clusters/Ige/ige-jupyterhub
   - file: docs/clusters/Gricad/general-infos
   - file: docs/clusters/GENCI/general-infos
   - file: docs/clusters/Tools/list
