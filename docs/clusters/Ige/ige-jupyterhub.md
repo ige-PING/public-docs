@@ -2,21 +2,24 @@
 
 # IGE Jupyterhub 
 
+## Access the server
+
 A server of notebooks with ressources coming from ige-calcul1-7 has been deployed and is accessible for anyone with agalan account at the address : https://ige-jupyterhub.univ-grenoble-alpes.fr/
 
 As of today (september 2026) it is only accessible from IGE network or via [UGA's VPN](https://ige-intranet.osug.fr/spip.php?article640)
 
+First, you will be asked for your agalan login/password
 
-The landing page looks like this :
+![](../Tools/images/jupyterhub1.PNG)
+
+Then the landing page looks like this :
 
 [](../Tools/images/jupyterhub2.PNG)
 
 You get to choose several parameters for your jupyterhub session : 
-  - the partition : ioperf is preferred for an intensive data reading/writing, compute for other use
-  - CPUs/GPUs
-  - Time
-
-You can choose, which interface you need, jupyterlab/jupyter or just a terminal
+  - Partition : ioperf is preferred for an intensive data reading/writing, compute for other use and gpu if you need one
+  - Time, Number of cores, Memory 
+  - User interface : you can choose to open a jupyterlab, jupyter notebook or a terminal
 
 ![](../Tools/images/jupyterhub2bisterm.PNG)
 
@@ -24,40 +27,9 @@ Finally you are connected to the job and have access to different kernels (pre-b
 
 ![](../Tools/images/jupyterhub3.PNG)
 
-You can access to SLURM commands to check the status of your code, from a notebook
 
-```{Note}
+## Workspaces
 
-When the job is submit, it will read the $HOME/.profile file.
-You can add all the environment variable you need before jupyter notebook starts.
-If you need to change the Notebook Directory (default $HOME) , you can add the following in this file:
-
-export NOTEBOOK_DIR=/path/to/new/location
-
-```
-
-![](../Tools/images/slurm_magics.PNG)
-
-Check the cpu usage (extension on the left)
-
-![](../Tools/images/cpu_usage.PNG)
-
-Check the gpu usage (extension on the left)
-
-![](../Tools/images/gpu_usage.PNG)
-
-## Matlab usage
-
-```{Note}
-For the first usage you will be asked to give the license server (Network License Manager)
-27000@matlab.ige-grenoble.fr
-```
-
-![](../Tools/images/matlab_license.PNG)
-
-Once it is done, you will be able to run matlab and the configuration will be saved for future usages
-
-![](../Tools/images/matlab.PNG)
 
 ## Exit the server
 
@@ -75,13 +47,19 @@ It will ask you again for new ressources adn connect you to the server
 
 ![](../Tools/images/restart_jupyterhub.PNG)
 
-# Add you own environment
+## Computing environment
+
+3 pangeo style environments are provided and can be reproduced from their configuration files hosted [here](https://github.com/ige-PING/jupyterhub-envs) :
+  - pangeo-notebook : everything python librairies needed to manage data (xarray, pandas, ...) and produce plots (matplotlib, cartopy, ...) and computation (numpy, scipy, ...) and many other
+  - pangeo-pytorch : pangeo-notebook + pytorch
+  - pangeo-tfjax : pangeo-notebook + tensorflow +jax 
+
+You can also add your own kernel/ environment created with micromamba for example
 
 ![](../Tools/images/kernel_env_install.PNG)
 
-You can add you own kernel/ environment created with micromamba for example
 
-## R example
+### R example
 
 1. Create your R environment
 ```
@@ -97,7 +75,7 @@ Open R terminal
  install.packages('IRkernel')
  IRkernel::installspec()
 ```
-## Pytorch example
+### Pytorch example
 
 1. Create pytorch env
 ```
@@ -167,3 +145,17 @@ Then you can open any folder on the remote server
 and that's it. You can now modify your code and run vscode
 
 ![](../Tools/images/codeserver3.PNG)
+
+## Matlab usage
+
+```{Note}
+For the first usage you will be asked to give the license server (Network License Manager)
+27000@matlab.ige-grenoble.fr
+```
+
+![](../Tools/images/matlab_license.PNG)
+
+Once it is done, you will be able to run matlab and the configuration will be saved for future usages
+
+![](../Tools/images/matlab.PNG)
+
