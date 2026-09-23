@@ -30,10 +30,17 @@ Finally you are connected to the job and have access to different kernels (pre-b
 
 ## Workspaces
 
+On the jupyterhub server you have access to difference type of workspaces for different usage :
+  - your **home** workspace will always be the same for your sessions and is hosted at /mnt/summer/juping/home/alberta (also accessible from IGE clusters ige-calcul1-7) : it is a HOME directory with no more than a few Gb of storage per user (5Tb for the whole lab) where you can store light scripts 
+  - your **workdir** workspace, also accessible from any of your sessions and IGE clusters and accessible at /workdir/yourteam/yourlogin : this is a workdir workspace where you can read, write, store *hot* data that you are currently producing or using, **quota** : XGb / user
+  - some **storedir** worspace : depending on your team and/or the projects you are working in, you may have access to some SUMMER storage : this is where you will store *cold* data that you do not need for the moment but you may need later, **quota** : depending on your team/project [if the SUMMER storage of your team/project is not accessible from the jupyterhub, ask ige-jupyterhub@univ-grenoble-alpes.fr to mount it]
+
+  If you need to share your data with outside of the lab, check the {ref}`erddap catalog for IGE<ige-catalog>` or {ref}`S3 point for IGE<ige-s3>` 
+
 
 ## Exit the server
 
-In order to stop the kernel et kill the allocated job go to **Hub Control Panel**
+In order to stop the kernel and kill the allocated job go to **Hub Control Panel**
 
 ![](../Tools/images/exit_jupyterlab1.PNG)
 
