@@ -48,21 +48,18 @@ In order to stop the kernel and kill the allocated job go to **Hub Control Panel
 ## Restart the server
 
 You can restart the server , by clicking on the button **Start My Server**
-It will ask you again for new ressources adn connect you to the server
+It will ask you again for new ressources and connect you to the server
 
 ![](../Tools/images/restart_jupyterhub.PNG)
 
 ## Computing environment
 
 3 pangeo style environments are provided and can be reproduced from their configuration files hosted [here](https://github.com/ige-PING/jupyterhub-envs) :
-  - pangeo-notebook : everything python librairies needed to manage data (xarray, pandas, ...) and produce plots (matplotlib, cartopy, ...) and computation (numpy, scipy, ...) and many other
-  - pangeo-pytorch : pangeo-notebook + pytorch
-  - pangeo-tfjax : pangeo-notebook + tensorflow +jax 
+  - pangeo-notebook : some python librairies needed to manage data (xarray, pandas, ...), produce plots (matplotlib, cartopy, ...) and compute (numpy, scipy, ...) and many [other](https://github.com/ige-PING/jupyterhub-envs/blob/main/pangeo-notebook/environment.yml)
+  - pangeo-pytorch : pangeo-notebook + pytorch (see the list [here](https://github.com/ige-PING/jupyterhub-envs/blob/main/pangeo-pytorch/environment.yml)
+  - pangeo-tfjax : pangeo-notebook + tensorflow +jax (see the list [here](https://github.com/ige-PING/jupyterhub-envs/blob/main/pangeo-tfjax/environment.yml)
 
-You can also add your own kernel/ environment created with micromamba for example
-
-![](../Tools/images/kernel_env_install.PNG)
-
+You can also add your own kernel/ environment created with micromamba for example, see examples below
 
 ### R example
 
@@ -94,7 +91,6 @@ Open R terminal
 ```
 python -m ipykernel install --name EnvPytorch --user --display-name "Pytorch"
 ```
-![](../Tools/images/check_torch.PNG)
 
 
 ## Run Vscode on the clusters
