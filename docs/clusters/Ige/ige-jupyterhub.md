@@ -10,22 +10,20 @@ As of today (september 2026) it is only accessible from IGE network or via [UGA'
 
 First, you will be asked for your agalan login/password
 
-![](../Tools/images/jupyterhub1.PNG)
+![](images/connexion.png)
 
 Then the landing page looks like this :
 
-[](../Tools/images/jupyterhub2.PNG)
+![](images/jupytrehub-landing.png)
 
 You get to choose several parameters for your jupyterhub session : 
   - Partition : ioperf is preferred for an intensive data reading/writing, compute for other use and gpu if you need one
   - Time, Number of cores, Memory 
   - User interface : you can choose to open a jupyterlab, jupyter notebook or a terminal
 
-![](../Tools/images/jupyterhub2bisterm.PNG)
-
 Finally you are connected to the job and have access to different kernels (pre-built: Matlab +your own : R/...)
 
-![](../Tools/images/jupyterhub3.PNG)
+![](images/kernels.PNG)
 
 
 ## Workspaces
