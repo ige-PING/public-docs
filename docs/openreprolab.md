@@ -10,7 +10,7 @@ OpenReproLab first started in 2025 and was initially targeted at Master students
 
 ## 2026-2027 session
 
-This section is under construction.
+OpenReproLab is back for the 2026-2027 season, with a completely new format: this time around, OpenReproLab will be structured around lab sessions ("travaux pratiques") where participants will solve practical problems related to producing FAIR and reproducible science. Course detail and full schedule is available in the [OpenReproLab_2026-2027 repository](https://github.com/ige-PING/OpenReproLab_2026-2027).
 
 ## 2025-2026 session
 
