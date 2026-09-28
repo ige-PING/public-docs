@@ -8,7 +8,7 @@ A server of notebooks with ressources coming from ige-calcul1-7 has been deploye
 
 As of today (september 2026) it is only accessible from IGE network or via [UGA's VPN](https://ige-intranet.osug.fr/spip.php?article640)
 
-First, you will be asked for your agalan login/password
+First, you will be asked for your agalan login/password :
 
 ![](images/connexion.png)
 
