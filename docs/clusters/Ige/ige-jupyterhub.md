@@ -21,7 +21,7 @@ You get to choose several parameters for your jupyterhub session :
   - Time, Number of cores, Memory 
   - User interface : you can choose to open a jupyterlab, jupyter notebook or a terminal
 
-Finally you are connected to the job and have access to different kernels (pre-built: Matlab +your own : R/...)
+Finally you are connected to the job and have access to different kernels (pre-built: python 3, some pangeo envs, Matlab +your own : R/...)
 
 ![](images/kernels.PNG)
 
@@ -33,24 +33,8 @@ On the jupyterhub server you have access to difference type of workspaces for di
   - your **workdir** workspace, also accessible from any of your sessions and IGE clusters and accessible at /workdir/yourteam/yourlogin : this is where you can read, write, store *hot* data that you are currently producing or using, **quota** : XGb / user
   - some **storedir** workspace : depending on your team and/or the projects you are working in, you may have access to some SUMMER storage : this is where you will store *cold* data that you do not need for the moment but you may need later, **quota** : depending on your team/project [if the SUMMER storage of your team/project is not accessible from the jupyterhub, ask ige-jupyterhub@univ-grenoble-alpes.fr to mount it]
 
-  If you need to share your data with outside of the lab, check the {ref}`erddap catalog for IGE<ige-catalog>` or {ref}`S3 point for IGE<ige-s3>` 
+  If you need to share your data with outside of the lab, check the {ref}`erddap catalog for IGE<ige-catalog>` or {ref}`S3 point for IGE<ige-s3>` documentation.
 
-
-## Exit the server
-
-In order to stop the kernel and kill the allocated job go to **Hub Control Panel**
-
-![](../Tools/images/exit_jupyterlab1.PNG)
-
-![](../Tools/images/exit_jupyterlab2.PNG)
-
-
-## Restart the server
-
-You can restart the server , by clicking on the button **Start My Server**
-It will ask you again for new ressources and connect you to the server
-
-![](../Tools/images/restart_jupyterhub.PNG)
 
 ## Computing environment
 
@@ -92,6 +76,21 @@ Open R terminal
 python -m ipykernel install --name EnvPytorch --user --display-name "Pytorch"
 ```
 
+## Exit the server
+
+In order to stop the kernel and kill the allocated job go to **Hub Control Panel**
+
+![](../Tools/images/exit_jupyterlab1.PNG)
+
+![](../Tools/images/exit_jupyterlab2.PNG)
+
+
+## Restart the server
+
+You can restart the server , by clicking on the button **Start My Server**
+It will ask you again for new ressources and connect you to the server
+
+![](../Tools/images/restart_jupyterhub.PNG)
 
 ## Run Vscode on the clusters
 
