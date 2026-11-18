@@ -1,6 +1,6 @@
 (ige-jupyterhub)=
 
-# IGE Jupyterhub 
+# IGE Jupyterhub
 
 ## Access the server
 
@@ -16,9 +16,9 @@ Then the landing page looks like this :
 
 ![](images/jupytrehub-landing.png)
 
-You get to choose several parameters for your jupyterhub session : 
+You get to choose several parameters for your jupyterhub session :
   - Partition : ioperf is preferred for an intensive data reading/writing, compute for other use and gpu if you need one
-  - Time, Number of cores, Memory 
+  - Time, Number of cores, Memory
   - User interface : you can choose to open a jupyterlab, jupyter notebook or a terminal
 
 Finally you are connected to the job and have access to different kernels (pre-built: python 3, some pangeo envs, Matlab +your own : R/...)
@@ -159,3 +159,11 @@ Once it is done, you will be able to run matlab and the configuration will be sa
 
 ![](../Tools/images/matlab.PNG)
 
+## Tips and tricks
+
+By default, hidden files are not listed in the navigation panel (left hand-side of the window). If you want hidden files to be listed there, run the following commands and then restart the Jupyterhub server as described above:
+
+```sh
+mkdir -p ~/.local/etc/jupyter
+echo "c.ContentsManager.allow_hidden = True" > ~/.local/etc/jupyter/jupyter_notebook_config.py`
+```
