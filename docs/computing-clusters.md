@@ -1,6 +1,5 @@
 # Computing clusters and jupyterhubs
 
-
 ## Access to ressources
 
 Depending on your needs, several options are available to access CPU and/or GPU nodes for your computation :
@@ -22,10 +21,10 @@ Some jupyterhub servers are deployed on clusters, here is a list of what is avai
 Some tools are described in the following pages :
 
 ::::{grid} 1 1 1 3
-:class-container: text-center 
+:class-container: text-center
 :gutter: 3
 
-:::{grid-item-card} 
+:::{grid-item-card}
 :link: ./clusters/Tools/vscode
 :link-type: doc
 :class-header: bg-light
@@ -43,7 +42,7 @@ Using VSCODE
 
 :::
 
-:::{grid-item-card} 
+:::{grid-item-card}
 :link: ./clusters/Tools/micromamba
 :link-type: doc
 :class-header: bg-light
@@ -60,27 +59,20 @@ MICROMAMBA
 Using MICROMAMBA
 
 :::
-:::{grid-item-card} 
-:link: ./clusters/Tools/jupyter-notebook
+:::{grid-item-card}
+:link: ./clusters/Ige/ige-jupyter-notebook
 :link-type: doc
 :class-header: bg-light
 
-JUPYTER NOTEBOOK 
+JUPYTER NOTEBOOK
 ^^^
-```{image}  ./clusters/Tools/images/logo-JUPYTER.jpg
+```{image} ./clusters/Tools/images/logo-JUPYTER.jpg
 :alt: jupyter-notebook
 :class: bg-primary mb-1
 :width: 200px
 :align: center
 ```
 
-Run a Jupyter Notebook on the cluster 
+Run a Jupyter Notebook on the IGE cluster
 
 :::
-
-
-
-
-
-
-
